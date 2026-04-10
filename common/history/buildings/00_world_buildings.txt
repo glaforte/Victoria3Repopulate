@@ -2967,20 +2967,6 @@
 			}
 		}
 	}
-	s:STATE_GREENLAND = {
-		region_state:GREENLAND = {
-			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:GREENLAND"
-						levels =  5
-					}
-				}
-				reserves = 1
-			}
-		}
-	}
 	s:STATE_WEST_SAHARA = {
 		region_state:WEST_SAHARA = {
 			create_building = {
