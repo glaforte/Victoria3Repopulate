@@ -1,0 +1,6 @@
+﻿
+INJECT:combat_unit_type_irregular_infantry = {
+	upkeep_modifier = {
+		melee_weapons = 1
+	}
+}

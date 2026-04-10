@@ -1,0 +1,39 @@
+﻿INJECT:pm_home_workshops_building_subsistence_farm = {
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_melee_weapons_add = 0.2
+		}
+	}
+}
+
+INJECT:pm_home_workshops_building_subsistence_orchard = {
+	building_modifiers = {
+			workforce_scaled = {
+				goods_output_melee_weapons_add = 0.2
+		}
+	}
+}
+
+INJECT:pm_home_workshops_building_subsistence_pasture = {
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_melee_weapons_add = 0.2
+		}
+	}
+}
+
+INJECT:pm_home_workshops_building_subsistence_fishing_village = {
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_melee_weapons_add = 0.2
+		}
+	}
+}
+
+INJECT:pm_home_workshops_building_subsistence_rice_farm = {
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_melee_weapons_add = 0.2
+		}
+	}
+}

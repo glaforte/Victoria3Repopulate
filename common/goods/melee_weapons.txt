@@ -1,0 +1,9 @@
+﻿melee_weapons = {
+  texture = "gfx/interface/icons/melee_weapons.dds"
+  cost = 10
+  category = military
+
+  # Reduced obsession and prestige
+  obsession_chance = 0.2
+  prestige_factor = 0.2
+}

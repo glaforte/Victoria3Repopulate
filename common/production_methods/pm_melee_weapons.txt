@@ -1,0 +1,33 @@
+﻿
+pm_wooden_weapons = {
+	texture = "gfx/interface/icons/wood_melee_weapon.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 10
+			goods_output_melee_weapons_add = 10
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 4900
+		}
+	}
+}
+
+pm_iron_weapons = {
+	texture = "gfx/interface/icons/iron_melee_weapon.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 10
+			goods_input_iron_add = 10
+			goods_output_melee_weapons_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 200
+			building_employment_laborers_add = 4800
+		}
+	}
+}

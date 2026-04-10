@@ -1,0 +1,14 @@
+{
+	"name": "Melee Weapons",
+	"id": "org.tabbycoder",
+	"version": "1.0.0",
+	"picture": "thumbnail.png",
+	"supported_game_version": "1.12.*",
+	"short_description": "Adds Melee Weapons for a pre-firearmn military start",
+
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

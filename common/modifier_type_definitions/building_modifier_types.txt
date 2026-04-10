@@ -1,0 +1,15 @@
+﻿REPLACE_OR_CREATE:goods_input_melee_weapons_add = {
+	decimals = 1
+	color=good
+	game_data = {
+		ai_value = 0
+	}
+}
+
+REPLACE_OR_CREATE:goods_output_melee_weapons_add = {
+	decimals = 1
+	color=good
+	game_data = {
+		ai_value = 0
+	}
+}
