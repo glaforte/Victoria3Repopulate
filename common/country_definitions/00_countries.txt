@@ -147,7 +147,7 @@ VENETIA = {
 }
 POMERANIA = {
 	color = { 138 243 238 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { north_german }
 	capital = STATE_POMERANIA
@@ -2429,7 +2429,7 @@ WESTERN_THRACE = {
 }
 NORTHERN_THRACE = {
 	color = { 0 228 243 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { bulgarian turkish }
 	capital = STATE_NORTHERN_THRACE
@@ -2891,7 +2891,7 @@ PALESTINE = {
 }
 LEBANON = {
 	color = { 252 230 203 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { mashriqi }
 	capital = STATE_LEBANON
@@ -3115,7 +3115,7 @@ CYPRUS = {
 }
 TRABZON = {
 	color = { 211 107 26 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { turkish }
 	capital = STATE_TRABZON
@@ -4340,7 +4340,7 @@ HESSE = {
 }
 PIEDMONT = {
 	color = { 133 124 104 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { north_italian }
 	capital = STATE_PIEDMONT
