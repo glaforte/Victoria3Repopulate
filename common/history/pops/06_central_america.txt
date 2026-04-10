@@ -1,73 +1,25 @@
 ﻿POPS = {
-	s:STATE_SAN_SALVADOR = {
-		region_state:SAN_SALVADOR = {
-		}
-	}
-	s:STATE_GUATEMALA = {
-		region_state:GUATEMALA = {
-		}
-	}
-	s:STATE_HONDURAS = {
-		region_state:HONDURAS = {
-		}
-	}
 	s:STATE_NICARAGUA = {
 		region_state:NICARAGUA = {
 			create_pop = {
 				culture = central_american
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_COSTA_RICA = {
-		region_state:COSTA_RICA = {
-		}
-	}
-	s:STATE_PANAMA = {
-		region_state:PANAMA = {
-		}
-	}
-	s:STATE_HAITI = {
-		region_state:HAITI = {
 		}
 	}
 	s:STATE_SANTO_DOMINGO = {
 		region_state:SANTO_DOMINGO = {
 			create_pop = {
 				culture = afro_antillean
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_PUERTO_RICO = {
-		region_state:PUERTO_RICO = {
-		}
-	}
-	s:STATE_BAHAMAS = {
-		region_state:BAHAMAS = {
-		}
-	}
-	s:STATE_WEST_INDIES = {
-		region_state:WEST_INDIES = {
-		}
-	}
-	s:STATE_JAMAICA = {
-		region_state:JAMAICA = {
-		}
-	}
-	s:STATE_WESTERN_CUBA = {
-		region_state:WESTERN_CUBA = {
-		}
-	}
-	s:STATE_EASTERN_CUBA = {
-		region_state:EASTERN_CUBA = {
 		}
 	}
 	s:STATE_CENTRAL_CUBA = {
 		region_state:CENTRAL_CUBA = {
 			create_pop = {
 				culture = caribeno
-				size = 1000000
+				size = 200000
 			}
 		}
 	}

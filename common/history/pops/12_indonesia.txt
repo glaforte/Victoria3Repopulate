@@ -1,122 +1,18 @@
 ﻿POPS = {
-	s:STATE_MALAYA = {
-		region_state:MALAYA = {
-		}
-	}
-	s:STATE_NORTH_BORNEO = {
-		region_state:NORTH_BORNEO = {
-		}
-	}
-	s:STATE_WEST_BORNEO = {
-		region_state:WEST_BORNEO = {
-		}
-	}
-	s:STATE_EAST_BORNEO = {
-		region_state:EAST_BORNEO = {
-		}
-	}
-	s:STATE_WEST_JAVA = {
-		region_state:WEST_JAVA = {
-		}
-	}
 	s:STATE_EAST_JAVA = {
 		region_state:EAST_JAVA = {
 			create_pop = {
 				culture = javan
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_CENTRAL_JAVA = {
-		region_state:CENTRAL_JAVA = {
 		}
 	}
 	s:STATE_NORTH_SUMATRA = {
 		region_state:NORTH_SUMATRA = {
 			create_pop = {
 				culture = sumatran
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SOUTH_SUMATRA = {
-		region_state:SOUTH_SUMATRA = {
-		}
-	}
-	s:STATE_ACEH = {
-		region_state:ACEH = {
-		}
-	}
-	s:STATE_WESTERN_NEW_GUINEA = {
-		region_state:WESTERN_NEW_GUINEA = {
-		}
-	}
-	s:STATE_MOLUCCAS = {
-		region_state:MOLUCCAS = {
-		}
-	}
-	s:STATE_CELEBES = {
-		region_state:CELEBES = {
-		}
-	}
-	s:STATE_EASTERN_NEW_GUINEA = {
-		region_state:EASTERN_NEW_GUINEA = {
-		}
-	}
-	s:STATE_SUNDA_ISLANDS = {
-		region_state:SUNDA_ISLANDS = {
-		}
-	}
-	s:STATE_MINDANAO = {
-		region_state:MINDANAO = {
-		}
-	}
-	s:STATE_LUZON = {
-		region_state:LUZON = {
-		}
-	}
-	s:STATE_VISAYAS = {
-		region_state:VISAYAS = {
-		}
-	}
-	s:STATE_EAST_MICRONESIA = {
-		region_state:EAST_MICRONESIA = {
-		}
-	}
-	s:STATE_WEST_MICRONESIA = {
-		region_state:WEST_MICRONESIA = {
-		}
-	}
-	s:STATE_SOLOMON_ISLANDS = {
-		region_state:SOLOMON_ISLANDS = {
-		}
-	}
-	s:STATE_NAURU = {
-		region_state:NAURU = {
-		}
-	}
-	s:STATE_FIJI = {
-		region_state:FIJI = {
-		}
-	}
-	s:STATE_VANUATU = {
-		region_state:VANUATU = {
-		}
-	}
-	s:STATE_KANAK = {
-		region_state:KANAK = {
-		}
-	}
-	s:STATE_BOUGAINVILLE = {
-		region_state:BOUGAINVILLE = {
-		}
-	}
-	s:STATE_TAHITI = {
-		region_state:TAHITI = {
-		}
-	}
-	s:STATE_TONGA = {
-		region_state:TONGA = {
 		}
 	}
 }

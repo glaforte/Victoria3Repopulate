@@ -1,206 +1,34 @@
 ﻿POPS = {
-	s:STATE_VILNIUS = {
-		region_state:VILNIUS = {
-		}
-	}
 	s:STATE_COURLAND = {
 		region_state:COURLAND = {
 			create_pop = {
 				culture = latvian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_TARTU = {
-		region_state:TARTU = {
 		}
 	}
 	s:STATE_TALINN = {
 		region_state:TALINN = {
 			create_pop = {
 				culture = estonian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_RIGA = {
-		region_state:RIGA = {
-		}
-	}
-	s:STATE_KAUNAS = {
-		region_state:KAUNAS = {
-		}
-	}
-	s:STATE_MAZOVIA = {
-		region_state:MAZOVIA = {
-		}
-	}
-	s:STATE_GREATER_POLAND = {
-		region_state:GREATER_POLAND = {
-		}
-	}
-	s:STATE_LESSER_POLAND = {
-		region_state:LESSER_POLAND = {
-		}
-	}
-	s:STATE_UUSIMAA = {
-		region_state:UUSIMAA = {
-		}
-	}
-	s:STATE_WEST_KARELIA = {
-		region_state:WEST_KARELIA = {
-		}
-	}
-	s:STATE_ALAND = {
-		region_state:ALAND = {
-		}
-	}
-	s:STATE_OSTROBOTHNIA = {
-		region_state:OSTROBOTHNIA = {
-		}
-	}
-	s:STATE_OULU = {
-		region_state:OULU = {
-		}
-	}
-	s:STATE_KUOPIO = {
-		region_state:KUOPIO = {
-		}
-	}
-	s:STATE_KOLA = {
-		region_state:KOLA = {
-		}
-	}
-	s:STATE_EAST_KARELIA = {
-		region_state:EAST_KARELIA = {
-		}
-	}
-	s:STATE_NENETSIA = {
-		region_state:NENETSIA = {
-		}
-	}
-	s:STATE_ARKHANGELSK = {
-		region_state:ARKHANGELSK = {
-		}
-	}
-	s:STATE_GALICH = {
-		region_state:GALICH = {
-		}
-	}
-	s:STATE_BREST = {
-		region_state:BREST = {
-		}
-	}
-	s:STATE_MINSK = {
-		region_state:MINSK = {
-		}
-	}
-	s:STATE_MOGILEV = {
-		region_state:MOGILEV = {
-		}
-	}
-	s:STATE_VITEBSK = {
-		region_state:VITEBSK = {
-		}
-	}
-	s:STATE_VOLHYNIA = {
-		region_state:VOLHYNIA = {
-		}
-	}
-	s:STATE_KIEV = {
-		region_state:KIEV = {
 		}
 	}
 	s:STATE_CRIMEA = {
 		region_state:CRIMEA = {
 			create_pop = {
 				culture = tatar
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_KHARKOV = {
-		region_state:KHARKOV = {
-		}
-	}
-	s:STATE_CHERSON = {
-		region_state:CHERSON = {
-		}
-	}
-	s:STATE_CHERNIHIV = {
-		region_state:CHERNIHIV = {
-		}
-	}
-	s:STATE_TAURIDA = {
-		region_state:TAURIDA = {
 		}
 	}
 	s:STATE_BESSARABIA = {
 		region_state:BESSARABIA = {
 			create_pop = {
 				culture = ukrainian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_NORTH_CAUCASUS = {
-		region_state:NORTH_CAUCASUS = {
-		}
-	}
-	s:STATE_ELIZAVETPOL = {
-		region_state:ELIZAVETPOL = {
-		}
-	}
-	s:STATE_STAVROPOL = {
-		region_state:STAVROPOL = {
-		}
-	}
-	s:STATE_KALMYKIA = {
-		region_state:KALMYKIA = {
-		}
-	}
-	s:STATE_PSKOV = {
-		region_state:PSKOV = {
-		}
-	}
-	s:STATE_YAROSLAVL = {
-		region_state:YAROSLAVL = {
-		}
-	}
-	s:STATE_RYAZAN = {
-		region_state:RYAZAN = {
-		}
-	}
-	s:STATE_TAMBOV = {
-		region_state:TAMBOV = {
-		}
-	}
-	s:STATE_NIZHNY_NOVGOROD = {
-		region_state:NIZHNY_NOVGOROD = {
-		}
-	}
-	s:STATE_CHUVASHIA = {
-		region_state:CHUVASHIA = {
-		}
-	}
-	s:STATE_VYATKA = {
-		region_state:VYATKA = {
-		}
-	}
-	s:STATE_UFA = {
-		region_state:UFA = {
-		}
-	}
-	s:STATE_CHELYABINSK = {
-		region_state:CHELYABINSK = {
-		}
-	}
-	s:STATE_URAL = {
-		region_state:URAL = {
-		}
-	}
-	s:STATE_ALTAI = {
-		region_state:ALTAI = {
 		}
 	}
 }

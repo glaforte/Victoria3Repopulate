@@ -3,27 +3,15 @@
 		region_state:ECUADOR = {
 			create_pop = {
 				culture = north_andean
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_GUAYANA = {
-		region_state:GUAYANA = {
-		}
-	}
-	s:STATE_ZULIA = {
-		region_state:ZULIA = {
-		}
-	}
-	s:STATE_MIRANDA = {
-		region_state:MIRANDA = {
 		}
 	}
 	s:STATE_BOLIVAR = {
 		region_state:BOLIVAR = {
 			create_pop = {
 				culture = amazonian
-				size = 1000000
+				size = 200000
 			}
 		}
 	}
@@ -31,229 +19,72 @@
 		region_state:ANTIOQUIA = {
 			create_pop = {
 				culture = guajiro
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_GUAVIARE = {
-		region_state:GUAVIARE = {
-		}
-	}
-	s:STATE_CUNDINAMARCA = {
-		region_state:CUNDINAMARCA = {
-		}
-	}
-	s:STATE_CAUCA = {
-		region_state:CAUCA = {
-		}
-	}
-	s:STATE_PASTAZA = {
-		region_state:PASTAZA = {
-		}
-	}
-	s:STATE_TARAPACA = {
-		region_state:TARAPACA = {
 		}
 	}
 	s:STATE_ANTOFAGASTA = {
 		region_state:ANTOFAGASTA = {
 			create_pop = {
 				culture = aimara
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SANTA_CRUZ = {
-		region_state:SANTA_CRUZ = {
-		}
-	}
-	s:STATE_LA_PAZ = {
-		region_state:LA_PAZ = {
-		}
-	}
-	s:STATE_POTOSI = {
-		region_state:POTOSI = {
-		}
-	}
-	s:STATE_CAJAMARCA = {
-		region_state:CAJAMARCA = {
-		}
-	}
-	s:STATE_LIMA = {
-		region_state:LIMA = {
 		}
 	}
 	s:STATE_ICA = {
 		region_state:ICA = {
 			create_pop = {
 				culture = quechua
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_AREQUIPA = {
-		region_state:AREQUIPA = {
-		}
-	}
-	s:STATE_URUGUAY = {
-		region_state:URUGUAY = {
-		}
-	}
-	s:STATE_JUJUY = {
-		region_state:JUJUY = {
-		}
-	}
-	s:STATE_ALTO_PARAGUAY = {
-		region_state:ALTO_PARAGUAY = {
-		}
-	}
-	
-	s:STATE_BAJO_PARAGUAY = {
-		region_state:BAJO_PARAGUAY = {
 		}
 	}
 	s:STATE_BUENOS_AIRES = {
 		region_state:BUENOS_AIRES = {
 			create_pop = {
 				culture = platinean
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_PATAGONIA = {
-		region_state:PATAGONIA = {
-		}
-	}
-	s:STATE_RIO_NEGRO = {
-		region_state:RIO_NEGRO = {
-	}
-	}
-	s:STATE_LA_PAMPA = {
-		region_state:LA_PAMPA = {
-		}
-	}
-	s:STATE_SANTA_FE = {
-		region_state:SANTA_FE = {
-		}
-	}
-	s:STATE_CORRIENTES = {
-		region_state:CORRIENTES = {
-		}
-	}
-	s:STATE_TUCUMAN = {
-		region_state:TUCUMAN = {
-		}
-	}
-	s:STATE_CHACO = {
-		region_state:CHACO = {
 		}
 	}
 	s:STATE_SANTIAGO = {
 		region_state:SANTIAGO = {
 			create_pop = {
 				culture = south_andean
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_LOS_RIOS = {
-		region_state:LOS_RIOS = {
-		}
-	}
-	s:STATE_ARAUCANIA = {
-		region_state:ARAUCANIA = {
-		}
-	}
-	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
-		region_state:SOUTH_ATLANTIC_ISLANDS = {
-		}
-	}
-	s:STATE_ACRE={
-		region_state:ACRE = { 
-		}
-	}
-	s:STATE_AMAZONAS = {
-		region_state:AMAZONAS = {
-		}
-	}
-	s:STATE_MATO_GROSSO = {
-		region_state:MATO_GROSSO = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		region_state:RIO_GRANDE_DO_SUL = {
 			create_pop = {
 				culture = sulista
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_PARANA = { 
-		region_state:PARANA  = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { 
 		region_state:SANTA_CATARINA  = {
 			create_pop = {
 				culture = afro_brazilian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SAO_PAULO = {
-		region_state:SAO_PAULO = {
-		}
-	}
-	s:STATE_MINAS_GERAIS = {
-		region_state:MINAS_GERAIS = {
 		}
 	}
 	s:STATE_RIO_DE_JANEIRO = {
 		region_state:RIO_DE_JANEIRO = {
 			create_pop = {
 				culture = brazilian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_BAHIA = {
-		region_state:BAHIA = {
-		}
-	}
-	s:STATE_RIO_GRANDE_DO_NORTE = { 
-		region_state:RIO_GRANDE_DO_NORTE  = {
-		}
-	}
-	s:STATE_CEARA = { 
-		region_state:CEARA  = {
-		}
-	}
-	s:STATE_PIAUI = { 
-		region_state:PIAUI  = {
-		}
-	}
-	s:STATE_PERNAMBUCO = { 
-		region_state:PERNAMBUCO  = {
-		}
-	}
-	s:STATE_PARAIBA = { 
-		region_state:PARAIBA  = {
 		}
 	}
 	s:STATE_MARANHAO = {
 		region_state:MARANHAO = {
 			create_pop = {
 				culture = tupinamba
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_GOIAS = { 
-		region_state:GOIAS  = {
-		}
-	}
-	s:STATE_PARA = { 
-		region_state:PARA  = {
 		}
 	}
 }

@@ -1,74 +1,10 @@
 ﻿POPS = {
-	s:STATE_TOMSK = {
-		region_state:TOMSK = {
-		}
-	}
-	s:STATE_TOBOLSK = {
-		region_state:TOBOLSK = {
-		}
-	}
-	s:STATE_TUVA = {
-		region_state:TUVA = {
-		}
-	}
-	s:STATE_KRASNOYARSK = {
-		region_state:KRASNOYARSK = {
-		}
-	}
-	s:STATE_UPPER_YENISEYSK = {
-		region_state:UPPER_YENISEYSK = {
-		}
-	}
-	s:STATE_BURYATIA = {
-		region_state:BURYATIA = {
-		}
-	}
-	s:STATE_IRKUTSK = {
-		region_state:IRKUTSK = {
-		}
-	}
-	s:STATE_OB = {
-		region_state:OB = {
-		}
-	}
-	s:STATE_SURGUT = {
-		region_state:SURGUT = {
-		}
-	}
-	s:STATE_CHUKOTKA = {
-		region_state:CHUKOTKA = {
-		}
-	}
-	s:STATE_KAMCHATKA = {
-		region_state:KAMCHATKA = {
-		}
-	}
-	s:STATE_OKHOTSK = {
-		region_state:OKHOTSK = {
-		}
-	}
-	s:STATE_YAKUTSK = {
-		region_state:YAKUTSK = {
-		}
-	}
-	s:STATE_KOLYMA = {
-		region_state:KOLYMA = {
-		}
-	}
-	s:STATE_TRANS_BAIKAL = {
-		region_state:TRANS_BAIKAL = {
-		}
-	}
 	s:STATE_OUTER_MANCHURIA = {
 		region_state:OUTER_MANCHURIA = {
 			create_pop = {
 				culture = siberian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_AMUR = {
-		region_state:AMUR = {
 		}
 	}
 }

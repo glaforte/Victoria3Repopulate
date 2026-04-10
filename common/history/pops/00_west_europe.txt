@@ -3,332 +3,64 @@
 		region_state:SVEALAND = {
 			create_pop = {
 				culture = swedish
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_GOTALAND = {
-		region_state:GOTALAND = {
-		}
-	}
-	s:STATE_SCANIA = {
-		region_state:SCANIA = {
-		}
-	}
-	s:STATE_NORRLAND = {
-		region_state:NORRLAND = {
-		}
-	}
-	s:STATE_GOTLAND = {
-		region_state:GOTLAND = {
-		}
-	}
-	s:STATE_JUTLAND = {
-		region_state:JUTLAND = {
 		}
 	}
 	s:STATE_ZEALAND = {
 		region_state:ZEALAND = {
 			create_pop = {
 				culture = danish
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_WESTERN_NORWAY = {
-		region_state:WESTERN_NORWAY = {
-		}
-	}
-	s:STATE_NORTHERN_NORWAY = {
-		region_state:NORTHERN_NORWAY = {
-		}
-	}
-	s:STATE_EASTERN_NORWAY = {
-		region_state:EASTERN_NORWAY = {
-		}
-	}
-	s:STATE_ICELAND = {
-		region_state:ICELAND = {
-		}
-	}
-	s:STATE_GREENLAND = {
-		region_state:GREENLAND = {
 		}
 	}
 	s:STATE_HOME_COUNTIES = {
 		region_state:HOME_COUNTIES = {
 			create_pop = {
 				culture = british
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_LANCASHIRE = {
-		region_state:LANCASHIRE = {
 		}
 	}
 	s:STATE_WALES = {
 		region_state:WALES = {
 			create_pop = {
 				culture = welsh
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_YORKSHIRE = {
-		region_state:YORKSHIRE = {
-		}
-	}
-	s:STATE_HIGHLANDS = {
-		region_state:HIGHLANDS = {
-		}
-	}
-	s:STATE_MIDLANDS = {
-		region_state:MIDLANDS = {
-		}
-	}
-	s:STATE_EAST_ANGLIA = {
-		region_state:EAST_ANGLIA = {
-		}
-	}
-	s:STATE_WEST_COUNTRY = {
-		region_state:WEST_COUNTRY = {
-		}
-	}
-	s:STATE_LOWLANDS = {
-		region_state:LOWLANDS = {
-		}
-	}
-	s:STATE_ULSTER = {
-		region_state:ULSTER = {
-		}
-	}
-	s:STATE_MUNSTER = {
-		region_state:MUNSTER = {
-		}
-	}
-	s:STATE_LEINSTER = {
-		region_state:LEINSTER = {
-		}
-	}
-	s:STATE_CONNAUGHT = {
-		region_state:CONNAUGHT = {
-		}
-	}
-	s:STATE_ILE_DE_FRANCE = {
-		region_state:ILE_DE_FRANCE = {
-		}
-	}
-	s:STATE_PROVENCE = {
-		region_state:PROVENCE = {
 		}
 	}
 	s:STATE_NORMANDY = {
 		region_state:NORMANDY = {
 			create_pop = {
 				culture = french
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_LANGUEDOC = {
-		region_state:LANGUEDOC = {
-		}
-	}
-	s:STATE_RHONE = {
-		region_state:RHONE = {
-		}
-	}
-	s:STATE_FRENCH_LOW_COUNTRIES = {
-		region_state:FRENCH_LOW_COUNTRIES = {
-		}
-	}
-	s:STATE_PICARDY = {
-		region_state:PICARDY = {
-		}
-	}
-	s:STATE_ALSACE_LORRAINE = {
-		region_state:ALSACE_LORRAINE = {
 		}
 	}
 	s:STATE_POITOU = {
 		region_state:POITOU = {
 			create_pop = {
 				culture = occitan
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_GUYENNE = {
-		region_state:GUYENNE = {
-		}
-	}
-	s:STATE_AUVERGNE_LIMOUSIN = {
-		region_state:AUVERGNE_LIMOUSIN = {
-		}
-	}
-	s:STATE_BRITTANY = {
-		region_state:BRITTANY = {
-		}
-	}
-	s:STATE_BURGUNDY = {
-		region_state:BURGUNDY = {
-		}
-	}
-	s:STATE_MAINE_ANJOU = {
-		region_state:MAINE_ANJOU = {
-		}
-	}
-	s:STATE_CHAMPAGNE = {
-		region_state:CHAMPAGNE = {
-		}
-	}
-	s:STATE_FRANCHE_COMTE = {
-		region_state:FRANCHE_COMTE = {
-		}
-	}
-	s:STATE_LORRAINE = {
-		region_state:LORRAINE = {
-		}
-	}
-	s:STATE_AQUITAINE = {
-		region_state:AQUITAINE = {
-		}
-	}
-	s:STATE_ORLEANS = {
-		region_state:ORLEANS = {
-		}
-	}
-	s:STATE_HOLLAND = {
-		region_state:HOLLAND = {
 		}
 	}
 	s:STATE_FRIESLAND = {
 		region_state:FRIESLAND = {
 			create_pop = {
 				culture = dutch
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_GELRE = {
-		region_state:GELRE = {
-		}
-	}
-	s:STATE_WALLONIA = {
-		region_state:WALLONIA = {
-		}
-	}
-	s:STATE_FLANDERS = {
-		region_state:FLANDERS = {
-		}
-	}
-	s:STATE_AUSTRIA = {
-		region_state:AUSTRIA = {
-		}
-	}
-	s:STATE_BOHEMIA = {
-		region_state:BOHEMIA = {
-		}
-	}
-	s:STATE_MORAVIA = {
-		region_state:MORAVIA = {
-		}
-	}
-	s:STATE_STYRIA = {
-		region_state:STYRIA = {
-		}
-	}
-	s:STATE_TYROL = {
-		region_state:TYROL = {
-		}
-	}
-	s:STATE_SOUTH_TYROL = {
-		region_state:SOUTH_TYROL = {
 		}
 	}
 	s:STATE_POMERANIA = {
 		region_state:POMERANIA = {
 			create_pop = {
 				culture = north_german
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_ELBE = {
-		region_state:ELBE = {
-		}
-	}
-	s:STATE_EAST_SWITZERLAND = {
-		region_state:EAST_SWITZERLAND = {
-		}
-	}
-	s:STATE_WEST_SWITZERLAND = {
-		region_state:WEST_SWITZERLAND = {
-		}
-	}
-	s:STATE_WESTPHALIA = {
-		region_state:WESTPHALIA = {
-		}
-	}
-	s:STATE_ANHALT = {
-		region_state:ANHALT = {
-		}
-	}
-	s:STATE_RHINELAND = {
-		region_state:RHINELAND = {
-		}
-	}
-	s:STATE_NORTH_RHINE = {
-		region_state:NORTH_RHINE = {
-		}
-	}
-	s:STATE_RUHR = {
-		region_state:RUHR = {
-		}
-	}
-	s:STATE_BRANDENBURG = {
-		region_state:BRANDENBURG = {
-		}
-	}
-	s:STATE_SCHLESWIG_HOLSTEIN = {
-		region_state:SCHLESWIG_HOLSTEIN = {
-		}
-	}
-	s:STATE_WURTTEMBERG = {
-		region_state:WURTTEMBERG = {
-		}
-	}
-	s:STATE_BADEN = {
-		region_state:BADEN = {
-		}
-	}
-	s:STATE_HANNOVER = {
-		region_state:HANNOVER = {
-		}
-	}
-	s:STATE_BRUNSWICK = {
-		region_state:BRUNSWICK = {
-		}
-	}
-	s:STATE_BAVARIA = {
-		region_state:BAVARIA = {
-		}
-	}
-	s:STATE_FRANCONIA = {
-		region_state:FRANCONIA = {
-		}
-	}
-	s:STATE_SAXONY = {
-		region_state:SAXONY = {
-		}
-	}
-	s:STATE_HESSE = {
-		region_state:HESSE = {
-		}
-	}
-	s:STATE_MECKLENBURG = {
-		region_state:MECKLENBURG = {
 		}
 	}
 }

@@ -1,89 +1,17 @@
 ﻿POPS = {
-	s:STATE_DZUNGARIA = {
-		region_state:DZUNGARIA = {
-		}
-	}
-	s:STATE_TIANSHAN = {
-		region_state:TIANSHAN = {
-		}
-	}
-	s:STATE_SICHUAN = {
-		region_state:SICHUAN = {
-		}
-	}
-	s:STATE_YUNNAN = {
-		region_state:YUNNAN = {
-		}
-	}
-	s:STATE_GUIZHOU = {
-		region_state:GUIZHOU = {
-		}
-	}
-	s:STATE_SHAOZHOU = {
-		region_state:SHAOZHOU = {
-		}
-	}
-	s:STATE_ALXA = {
-		region_state:ALXA = {
-		}
-	}
-	s:STATE_HINGGAN = {
-		region_state:HINGGAN = {
-		}
-	}
-	s:STATE_GUANGXI = {
-		region_state:GUANGXI = {
-		}
-	}
-	s:STATE_BEIJING = {
-		region_state:BEIJING = {
-		}
-	}
 	s:STATE_SHENGJING = {
 		region_state:SHENGJING = {
 			create_pop = {
 				culture = han
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:SOUTHERN_MANCHURIA = {
-		}
-	}
-	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:NORTHERN_MANCHURIA = {
-		}
-	}
-	s:STATE_SHANXI = {
-		region_state:SHANXI = {
-		}
-	}
-	s:STATE_NINGXIA = {
-		region_state:NINGXIA = {
-		}
-	}
-	s:STATE_GANSU = {
-		region_state:GANSU = {
-		}
-	}
-	s:STATE_XIAN = {
-		region_state:XIAN = {
-		}
-	}
-	s:STATE_QINGHAI = {
-		region_state:QINGHAI = {
-		}
-	}
-	s:STATE_CHONGQING = {
-		region_state:CHONGQING = {
 		}
 	}
 	s:STATE_GUANGDONG = {
 		region_state:GUANGDONG = {
 			create_pop = {
 				culture = yue
-				size = 1000000
+				size = 200000
 			}
 		}
 	}
@@ -91,63 +19,15 @@
 		region_state:FUJIAN = {
 			create_pop = {
 				culture = min
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_ZHEJIANG = {
-		region_state:ZHEJIANG = {
-		}
-	}
-	s:STATE_JIANGSU = {
-		region_state:JIANGSU = {
-		}
-	}
-	s:STATE_NANJING = {
-		region_state:NANJING = {
-		}
-	}
-	s:STATE_HENAN = {
-		region_state:HENAN = {
-		}
-	}
-	s:STATE_ZHILI = {
-		region_state:ZHILI = {
-		}
-	}
-	s:STATE_JIANGXI = {
-		region_state:JIANGXI = {
-		}
-	}
-	s:STATE_SOUTHERN_ANHUI = {
-		region_state:SOUTHERN_ANHUI = {
-		}
-	}
-	s:STATE_NORTHERN_ANHUI = {
-		region_state:NORTHERN_ANHUI = {
-		}
-	}
-	s:STATE_WESTERN_HUBEI = {
-		region_state:WESTERN_HUBEI = {
-		}
-	}
-	s:STATE_EASTERN_HUBEI = {
-		region_state:EASTERN_HUBEI = {
-		}
-	}
-	s:STATE_HUNAN = {
-		region_state:HUNAN = {
-		}
-	}
-	s:STATE_FORMOSA = {
-		region_state:FORMOSA = {
 		}
 	}
 	s:STATE_SHANDONG = {
 		region_state:SHANDONG = {
 			create_pop = {
 				culture = han
-				size = 1000000
+				size = 200000
 			}
 		}
 	}
@@ -155,120 +35,32 @@
 		region_state:SUZHOU = {
 			create_pop = {
 				culture = mongol
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_ULIASTAI = {
-		region_state:ULIASTAI = {
-		}
-	}
-	s:STATE_URGA = {
-		region_state:URGA = {
 		}
 	}
 	s:STATE_CAMBODIA = {
 		region_state:CAMBODIA = {
 			create_pop = {
 				culture = khmer
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_BANGKOK = {
-		region_state:BANGKOK = {
-		}
-	}
-	s:STATE_TONKIN = {
-		region_state:TONKIN = {
 		}
 	}
 	s:STATE_ANNAM = {
 		region_state:ANNAM = {
 			create_pop = {
 				culture = vietnamese
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_MEKONG = {
-		region_state:MEKONG = {
-		}
-	}
-	s:STATE_LAOS = {
-		region_state:LAOS = {
-		}
-	}
-	s:STATE_CHIANG_MAI = {
-		region_state:CHIANG_MAI = {
-		}
-	}
-	s:STATE_NAKHON_RATCHASIMA = {
-		region_state:NAKHON_RATCHASIMA = {
-		}
-	}
-	s:STATE_TENASSERIM = {
-		region_state:TENASSERIM = {
-		}
-	}
-	s:STATE_KACHIN = {
-		region_state:KACHIN = {
-		}
-	}
-	s:STATE_SHAN_STATES = {
-		region_state:SHAN_STATES = {
-		}
-	}
-	s:STATE_MANDALAY = {
-		region_state:MANDALAY = {
-		}
-	}
-	s:STATE_PEGU = {
-		region_state:PEGU = {
-		}
-	}
-	s:STATE_ARAKAN = {
-		region_state:ARAKAN = {
-		}
-	}
-	s:STATE_SAKHALIN = {
-		region_state:SAKHALIN = {
-		}
-	}
-	s:STATE_HOKKAIDO = {
-		region_state:HOKKAIDO = {
-		}
-	}
-	s:STATE_TOHOKU = {
-		region_state:TOHOKU = {
-		}
-	}
-	s:STATE_KANTO = {
-		region_state:KANTO = {
 		}
 	}
 	s:STATE_CHUBU = {
 		region_state:CHUBU = {
 			create_pop = {
 				culture = japanese
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_KANSAI = {
-		region_state:KANSAI = {
-		}
-	}
-	s:STATE_KYUSHU = {
-		region_state:KYUSHU = {
-		}
-	}
-	s:STATE_RYUKYU_ISLANDS = {
-		region_state:RYUKYU_ISLANDS = {
-		}
-	}
-	s:STATE_CHUGOKU = {
-		region_state:CHUGOKU = {
 		}
 	}
 	s:STATE_SHIKOKU = {
@@ -276,32 +68,16 @@
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SEOUL = {
-		region_state:SEOUL = {
-		}
-	}
-	s:STATE_BUSAN = {
-		region_state:BUSAN = {
 		}
 	}
 	s:STATE_YANGHO = {
 		region_state:YANGHO = {
 			create_pop = {
 				culture = korean
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SARIWON = {
-		region_state:SARIWON = {
-		}
-	}
-	s:STATE_PYONGYANG = {
-		region_state:PYONGYANG = {
 		}
 	}
 }

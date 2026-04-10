@@ -1,126 +1,42 @@
 ﻿POPS = {
-	s:STATE_BIHAR = {
-		region_state:BIHAR = {
-		}
-	}
-	s:STATE_WEST_BENGAL = {
-		region_state:WEST_BENGAL = {
-		}
-	}
 	s:STATE_EAST_BENGAL = {
 		region_state:EAST_BENGAL = {
 			create_pop = {
 				culture = bengali
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_ASSAM = {
-		region_state:ASSAM = {
-		}
-	}
-	s:STATE_DELHI = {
-		region_state:DELHI = {
-		}
-	}
-	s:STATE_AWADH = {
-		region_state:AWADH = {
 		}
 	}
 	s:STATE_GUJARAT = {
 		region_state:GUJARAT = {
 			create_pop = {
 				culture = gujarati
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_MALWA = {
-		region_state:MALWA = {
-		}
-	}
-	s:STATE_KASHMIR = {
-		region_state:KASHMIR = {
-		}
-	}
-	s:STATE_PUNJAB = {
-		region_state:PUNJAB = {
-		}
-	}
-	s:STATE_CENTRAL_PROVINCES = {
-		region_state:CENTRAL_PROVINCES = {
 		}
 	}
 	s:STATE_SINDH = {
 		region_state:SINDH = {
 			create_pop = {
 				culture = sindi
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_RAJPUTANA = {
-		region_state:RAJPUTANA = {
-		}
-	}
-	s:STATE_CEYLON = {
-		region_state:CEYLON = {
-		}
-	}
-	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:INDIAN_OCEAN_TERRITORY = {
-		}
-	}
-	s:STATE_ORISSA = {
-		region_state:ORISSA = {
 		}
 	}
 	s:STATE_CIRCARS = {
 		region_state:CIRCARS = {
 			create_pop = {
 				culture = telegu
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_MYSORE = {
-		region_state:MYSORE = {
 		}
 	}
 	s:STATE_TRAVANCORE = {
 		region_state:TRAVANCORE = {
 			create_pop = {
 				culture = malayalam
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_MADRAS = {
-		region_state:MADRAS = {
-		}
-	}
-	s:STATE_HYDERABAD = {
-		region_state:HYDERABAD = {
-		}
-	}
-	s:STATE_BOMBAY = {
-		region_state:BOMBAY = {
-		}
-	}
-	s:STATE_KURNOOL = {
-		region_state:KURNOOL = {
-		}
-	}
-	s:STATE_BUNDELKHAND = {
-		region_state:BUNDELKHAND = {
-		}
-	}
-	s:STATE_AGRA = {
-		region_state:AGRA = {
-		}
-	}
-	s:STATE_HILL_PUNJAB = {
-		region_state:HILL_PUNJAB = {
 		}
 	}
 }

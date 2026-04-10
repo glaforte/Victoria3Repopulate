@@ -1,4 +1,4 @@
-﻿MINSK = {
+﻿EMPTYLAND = {
 	color = { 255 230 226 }
 	country_type = decentralized
 	tier = principality
@@ -4022,13 +4022,6 @@ SMOLENSK = {
 	tier = principality
 	cultures = { russian }
 	capital = STATE_SMOLENSK
-}
-MOGILEV = {
-	color = { 210 205 164 }
-	country_type = decentralized
-	tier = principality
-	cultures = { byelorussian }
-	capital = STATE_MOGILEV
 }
 CAMPANIA = {
 	color = { 136 135 133 }

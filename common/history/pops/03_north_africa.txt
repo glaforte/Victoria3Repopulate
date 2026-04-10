@@ -3,83 +3,23 @@
 		region_state:LOWER_EGYPT = {
 			create_pop = {
 				culture = misri
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_UPPER_EGYPT = {
-		region_state:UPPER_EGYPT = {
-		}
-	}
-	s:STATE_MIDDLE_EGYPT = {
-		region_state:MIDDLE_EGYPT = {
-		}
-	}
-	s:STATE_EGYPTIAN_DESERT = {
-		region_state:EGYPTIAN_DESERT = {
-		}
-	}
-	s:STATE_MATRUH = {
-		region_state:MATRUH = {
-		}
-	}
-	s:STATE_SINAI = {
-		region_state:SINAI = {
-		}
-	}
-	s:STATE_ERITREA = {
-		region_state:ERITREA = {
-		}
-	}
-	s:STATE_DONGOLA = {
-		region_state:DONGOLA = {
-		}
-	}
-	s:STATE_KORDOFAN = {
-		region_state:KORDOFAN = {
-		}
-	}
-	s:STATE_DARFUR = {
-		region_state:DARFUR = {
-		}
-	}
-	s:STATE_BLUE_NILE = {
-		region_state:BLUE_NILE = {
-		}
-	}
-	s:STATE_MARRAKECH = {
-		region_state:MARRAKECH = {
 		}
 	}
 	s:STATE_FEZ = {
 		region_state:FEZ = {
 			create_pop = {
 				culture = maghrebi
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_AL_RIF = {
-		region_state:AL_RIF = {
-		}
-	}
-	s:STATE_INNER_MOROCCO = {
-		region_state:INNER_MOROCCO = {
-		}
-	}
-	s:STATE_ALGIERS = {
-		region_state:ALGIERS = {
-		}
-	}
-	s:STATE_CONSTANTINE = {
-		region_state:CONSTANTINE = {
 		}
 	}
 	s:STATE_ORAN = {
 		region_state:ORAN = {
 			create_pop = {
 				culture = berber
-				size = 1000000
+				size = 200000
 			}
 		}
 	}
@@ -87,60 +27,8 @@
 		region_state:TUNISIA = {
 			create_pop = {
 				culture = sephardic
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_TRIPOLI = {
-		region_state:TRIPOLI = {
-		}
-	}
-	s:STATE_LIBYA = {
-		region_state:LIBYA = {
-		}
-	}
-	s:STATE_LIBYAN_DESERT = {
-		region_state:LIBYAN_DESERT = {
-		}
-	}
-	s:STATE_SAHARA = {
-		region_state:SAHARA = {
-		}
-	}
-	s:STATE_EAST_SAHARA = {
-		region_state:EAST_SAHARA = {
-		}
-	}
-	s:STATE_WEST_SAHARA = {
-		region_state:WEST_SAHARA = {
-		}
-	}
-	s:STATE_MAURITANIA = {
-		region_state:MAURITANIA = {
-		}
-	}
-	s:STATE_INNER_MAURITANIA = {
-		region_state:INNER_MAURITANIA = {
-		}
-	}
-	s:STATE_EASTERN_MALI = {
-		region_state:EASTERN_MALI = {
-		}
-	}
-	s:STATE_WESTERN_MALI = {
-		region_state:WESTERN_MALI = {
-		}
-	}
-	s:STATE_TIMBUKTU = {
-		region_state:TIMBUKTU = {
-		}
-	}
-	s:STATE_NIGER = {
-		region_state:NIGER = {
-		}
-	}
-	s:STATE_CHAD = {
-		region_state:CHAD = {
 		}
 	}
 }

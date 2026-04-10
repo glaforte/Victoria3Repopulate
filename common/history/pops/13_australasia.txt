@@ -1,46 +1,18 @@
 ﻿POPS = {
-	s:STATE_NEW_SOUTH_WALES = {
-		region_state:NEW_SOUTH_WALES = {
-		}
-	}
 	s:STATE_VICTORIA = {
 		region_state:VICTORIA = {
 			create_pop = {
 				culture = aborigine
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_TASMANIA = {
-		region_state:TASMANIA = {
-		}
-	}
-	s:STATE_QUEENSLAND = {
-		region_state:QUEENSLAND = {
-		}
-	}
-	s:STATE_SOUTH_AUSTRALIA = {
-		region_state:SOUTH_AUSTRALIA = {
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
 		region_state:WESTERN_AUSTRALIA = {
 			create_pop = {
 				culture = australian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_NORTHERN_TERRITORY = {
-		region_state:NORTHERN_TERRITORY = {
-		}
-	}
-	s:STATE_NORTH_ISLAND = {
-		region_state:NORTH_ISLAND = {
-		}
-	}
-	s:STATE_SOUTH_ISLAND = {
-		region_state:SOUTH_ISLAND = {
 		}
 	}
 }

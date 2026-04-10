@@ -1,286 +1,58 @@
 ﻿POPS = {
-	s:STATE_LOMBARDY = {
-		region_state:LOMBARDY = {
-		}
-	}
 	s:STATE_PIEDMONT = {
 		region_state:PIEDMONT = {
 			create_pop = {
 				culture = north_italian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SARDINIA = {
-		region_state:SARDINIA = {
-		}
-	}
-	s:STATE_MALTA = {
-		region_state:MALTA = {
-		}
-	}
-	s:STATE_UMBRIA = {
-		region_state:UMBRIA = {
-		}
-	}
-	s:STATE_CORSICA = {
-		region_state:CORSICA = {
-		}
-	}
-	s:STATE_CAMPANIA = {
-		region_state:CAMPANIA = {
 		}
 	}
 	s:STATE_CALABRIA = {
 		region_state:CALABRIA = {
 			create_pop = {
 				culture = south_italian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_APULIA = {
-		region_state:APULIA = {
-		}
-	}
-	s:STATE_ABRUZZO = {
-		region_state:ABRUZZO = {
-		}
-	}
-	s:STATE_SAVOY = {
-		region_state:SAVOY = {
-		}
-	}
-	s:STATE_EMILIA = {
-		region_state:EMILIA = {
-		}
-	}
-	s:STATE_TUSCANY = {
-		region_state:TUSCANY = {
-		}
-	}
-	s:STATE_ROMAGNA = {
-		region_state:ROMAGNA = {
-		}
-	}
-	s:STATE_LAZIO = {
-		region_state:LAZIO = {
 		}
 	}
 	s:STATE_VENETIA = {
 		region_state:VENETIA = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SICILY = {
-		region_state:SICILY = {
-		}
-	}
-	s:STATE_NEW_CASTILE = {
-		region_state:NEW_CASTILE = {
-		}
-	}
-	s:STATE_GALICIA = {
-		region_state:GALICIA = {
 		}
 	}
 	s:STATE_ASTURIAS = {
 		region_state:ASTURIAS = {
 			create_pop = {
 				culture = asturleonese
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_OLD_CASTILE = {
-		region_state:OLD_CASTILE = {
-		}
-	}
-	s:STATE_BASQUE_COUNTRY = {
-		region_state:BASQUE_COUNTRY = {
-		}
-	}
-	s:STATE_ARAGON = {
-		region_state:ARAGON = {
-		}
-	}
-	s:STATE_CATALONIA = {
-		region_state:CATALONIA = {
-		}
-	}
-	s:STATE_BALEARIC_ISLANDS = {
-		region_state:BALEARIC_ISLANDS = {
-		}
-	}
-	s:STATE_LOWER_ANDALUSIA = {
-		region_state:LOWER_ANDALUSIA = {
-		}
-	}
-	s:STATE_UPPER_ANDALUSIA = {
-		region_state:UPPER_ANDALUSIA = {
-		}
-	}
-	s:STATE_EXTREMADURA = {
-		region_state:EXTREMADURA = {
 		}
 	}
 	s:STATE_VALENCIA = {
 		region_state:VALENCIA = {
 			create_pop = {
 				culture = catalan
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_MURCIA = {
-		region_state:MURCIA = {
-		}
-	}
-	s:STATE_LEON = {
-		region_state:LEON = {
-		}
-	}
-	s:STATE_CANARY_ISLANDS = {
-		region_state:CANARY_ISLANDS = {
-		}
-	}
-	s:STATE_BEIRA = {
-		region_state:BEIRA = {
-		}
-	}
-	s:STATE_ESTREMADURA = {
-		region_state:ESTREMADURA = {
-		}
-	}
-	s:STATE_ALENTEJO = {
-		region_state:ALENTEJO = {
-		}
-	}
-	s:STATE_ENTRE_DOURO_E_MINHO = {
-		region_state:ENTRE_DOURO_E_MINHO = {
-		}
-	}
-	s:STATE_CAPE_VERDE = {
-		region_state:CAPE_VERDE = {
-		}
-	}
-	s:STATE_MADEIRA = {
-		region_state:MADEIRA = {
-		}
-	}
-	s:STATE_AZORES = {
-		region_state:AZORES = {
-		}
-	}
-	s:STATE_EASTERN_THRACE = {
-		region_state:EASTERN_THRACE = {
-		}
-	}
-	s:STATE_DOBRUDJA = {
-		region_state:DOBRUDJA = {
 		}
 	}
 	s:STATE_ALBANIA = {
 		region_state:ALBANIA = {
 			create_pop = {
 				culture = albanian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_BOSNIA = {
-		region_state:BOSNIA = {
 		}
 	}
 	s:STATE_NORTHERN_THRACE = {
 		region_state:NORTHERN_THRACE = {
 			create_pop = {
 				culture = bulgarian
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_BULGARIA = {
-		region_state:BULGARIA = {
-		}
-	}
-	s:STATE_SLOVENIA = {
-		region_state:SLOVENIA = {
-		}
-	}
-	s:STATE_DALMATIA = {
-		region_state:DALMATIA = {
-		}
-	}
-	s:STATE_CROATIA = {
-		region_state:CROATIA = {
-		}
-	}
-	s:STATE_SLAVONIA = {
-		region_state:SLAVONIA = {
-		}
-	}
-	s:STATE_ISTRIA = {
-		region_state:ISTRIA = {
-		}
-	}
-	s:STATE_MONTENEGRO = {
-		region_state:MONTENEGRO = {
-		}
-	}
-	s:STATE_WESTERN_SERBIA = {
-		region_state:WESTERN_SERBIA = {
-		}
-	}
-	s:STATE_EASTERN_SERBIA = {
-		region_state:EASTERN_SERBIA = {
-		}
-	}
-	s:STATE_KOSOVO = {
-		region_state:KOSOVO = {
-		}
-	}
-	s:STATE_CRETE = {
-		region_state:CRETE = {
-		}
-	}
-	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:WEST_AEGEAN_ISLANDS = {
-		}
-	}
-	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:EAST_AEGEAN_ISLANDS = {
-		}
-	}
-	s:STATE_ATTICA = {
-		region_state:ATTICA = {
-		}
-	}
-	s:STATE_THESSALIA = {
-		region_state:THESSALIA = {
-		}
-	}
-	s:STATE_SKOPIA = {
-		region_state:SKOPIA = {
-		}
-	}
-	s:STATE_MACEDONIA = {
-		region_state:MACEDONIA = {
-		}
-	}
-	s:STATE_WESTERN_THRACE = {
-		region_state:WESTERN_THRACE = {
-		}
-	}
-	s:STATE_IONIAN_ISLANDS = {
-		region_state:IONIAN_ISLANDS = {
-		}
-	}
-	s:STATE_PELOPONNESE = {
-		region_state:PELOPONNESE = {
 		}
 	}
 }

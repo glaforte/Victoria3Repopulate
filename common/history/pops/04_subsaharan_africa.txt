@@ -1,286 +1,90 @@
 ﻿POPS = {
-	s:STATE_IVORY_COAST = {
-		region_state:IVORY_COAST = {
-		}
-	}
-	s:STATE_WINDWARD_COAST = {
-		region_state:WINDWARD_COAST = {
-		}
-	}
-	s:STATE_SENEGAL = {
-		region_state:SENEGAL = {
-		}
-	}
 	s:STATE_SIERRA_LEONE = {
 		region_state:SIERRA_LEONE = {
 			create_pop = {
 				culture = equatorial_bantu
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_VOLTA = {
-		region_state:VOLTA = {
 		}
 	}
 	s:STATE_LIBERIA = {
 		region_state:LIBERIA = {
 			create_pop = {
 				culture = kru
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_HAUSALAND = {
-		region_state:HAUSALAND = {
-		}
-	}
-	s:STATE_BENIN = {
-		region_state:BENIN = {
-		}
-	}
-	s:STATE_YORUBA_STATES = {
-		region_state:YORUBA_STATES = {
 		}
 	}
 	s:STATE_NIGER_DELTA = {
 		region_state:NIGER_DELTA = {
 			create_pop = {
 				culture = ibo
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_OUTER_HAUSALAND = {
-		region_state:OUTER_HAUSALAND = {
-		}
-	}
-	s:STATE_BORNU = {
-		region_state:BORNU = {
-		}
-	}
-	s:STATE_NIGERIA = {
-		region_state:NIGERIA = {
-		}
-	}
-	s:STATE_EAST_HAUSALAND = {
-		region_state:EAST_HAUSALAND = {
-		}
-	}
-	s:STATE_GUINEA = {
-		region_state:GUINEA = {
-		}
-	}
-	s:STATE_GOLD_COAST = {
-		region_state:GOLD_COAST = {
 		}
 	}
 	s:STATE_TOGO = {
 		region_state:TOGO = {
 			create_pop = {
 				culture = akan
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_DAHOMEY = {
-		region_state:DAHOMEY = {
-		}
-	}
-	s:STATE_LINDI = {
-		region_state:LINDI = {
-		}
-	}
-	s:STATE_ZANZIBAR = {
-		region_state:ZANZIBAR = {
-		}
-	}
-	s:STATE_TANGANYIKA = {
-		region_state:TANGANYIKA = {
-		}
-	}
-	s:STATE_KENYA = {
-		region_state:KENYA = {
-		}
-	}
-	s:STATE_RIFT_VALLEY = {
-		region_state:RIFT_VALLEY = {
-		}
-	}
-	s:STATE_OROMIA = {
-		region_state:OROMIA = {
-		}
-	}
-	s:STATE_AMHARA = {
-		region_state:AMHARA = {
-		}
-	}
-	s:STATE_GONDER = {
-		region_state:GONDER = {
-		}
-	}
-	s:STATE_KAZEMBE = {
-		region_state:KAZEMBE = {
 		}
 	}
 	s:STATE_SOMALILAND = {
 		region_state:SOMALILAND = {
 			create_pop = {
 				culture = somali
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:SOUTH_MADAGASCAR = {
-		}
-	}
-	s:STATE_NORTH_MADAGASCAR = {
-		region_state:NORTH_MADAGASCAR = {
-		}
-	}
-	s:STATE_UGANDA = {
-		region_state:UGANDA = {
-		}
-	}
-	s:STATE_EQUATORIA = {
-		region_state:EQUATORIA = {
 		}
 	}
 	s:STATE_MOCAMBIQUE = {
 		region_state:MOCAMBIQUE = {
 			create_pop = {
 				culture = makua
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_WADDAI = {
-		region_state:WADDAI = {
-		}
-	}
-	s:STATE_NORTH_CAMEROON = {
-		region_state:NORTH_CAMEROON = {
-		}
-	}
-	s:STATE_SOUTH_CAMEROON = {
-		region_state:SOUTH_CAMEROON = {
-		}
-	}
-	s:STATE_UBANGI_SHARI = {
-		region_state:UBANGI_SHARI = {
-		}
-	}
-	s:STATE_CONGO = {
-		region_state:CONGO = {
-		}
-	}
-	s:STATE_CONGO_ORIENTALE = {
-		region_state:CONGO_ORIENTALE = {
-		}
-	}
-	s:STATE_KASAI = {
-		region_state:KASAI = {
-		}
-	}
-	s:STATE_BAS_CONGO = {
-		region_state:BAS_CONGO = {
-		}
-	}
-	s:STATE_EQUATEUR = {
-		region_state:EQUATEUR = {
-		}
-	}
-	s:STATE_NORTH_ANGOLA = {
-		region_state:NORTH_ANGOLA = {
 		}
 	}
 	s:STATE_SOUTH_ANGOLA = {
 		region_state:SOUTH_ANGOLA = {
 			create_pop = {
 				culture = ovimbundu
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_EAST_ANGOLA = {
-		region_state:EAST_ANGOLA = {
-		}
-	}
-	s:STATE_KATANGA = {
-		region_state:KATANGA = {
 		}
 	}
 	s:STATE_GABON = {
 		region_state:GABON = {
 			create_pop = {
 				culture = fang
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_ZAMBIA = {
-		region_state:ZAMBIA = {
 		}
 	}
 	s:STATE_ZAMBEZIA = {
 		region_state:ZAMBEZIA = {
 			create_pop = {
 				culture = sena
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_ZAMBEZI = {
-		region_state:ZAMBEZI = {
-		}
-	}
-	s:STATE_NAMAQUALAND = {
-		region_state:NAMAQUALAND = {
-		}
-	}
-	s:STATE_HEREROLAND = {
-		region_state:HEREROLAND = {
 		}
 	}
 	s:STATE_ZULULAND = {
 		region_state:ZULULAND = {
 			create_pop = {
 				culture = zulu
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_VRYSTAAT = {
-		region_state:VRYSTAAT = {
-		}
-	}
-	s:STATE_TRANSVAAL = {
-		region_state:TRANSVAAL = {
-		}
-	}
-	s:STATE_EASTERN_CAPE = {
-		region_state:EASTERN_CAPE = {
 		}
 	}
 	s:STATE_CAPE_COLONY = {
 		region_state:CAPE_COLONY = {
 			create_pop = {
 				culture = khoisan
-				size = 1000000
+				size = 200000
 			}
-		}
-	}
-	s:STATE_NORTHERN_CAPE = {
-		region_state:NORTHERN_CAPE = {
-		}
-	}
-	s:STATE_BOTSWANA = {
-		region_state:BOTSWANA = {
-		}
-	}
-	s:STATE_LOURENCO_MARQUES = {
-		region_state:LOURENCO_MARQUES = {
 		}
 	}
 }
