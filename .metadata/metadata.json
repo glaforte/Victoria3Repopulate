@@ -18,6 +18,7 @@
 			"common/history/diplomacy",
 			"common/history/diplomatic_plays",
 			"common/history/interests",
+			"common/history/lobbies",
 			"common/history/governments",
 			"common/history/global",
 			"common/history/military_formations",

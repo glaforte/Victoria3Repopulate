@@ -114,11 +114,6 @@
 		set_strategy = ai_strategy_territorial_expansion 
 		set_strategy = ai_strategy_nationalist_agenda
 	}
-	c:BALEARIC_ISLANDS = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion 
-		set_strategy = ai_strategy_nationalist_agenda
-	}
 	c:VICTORIA = {
 		set_strategy = ai_strategy_industrial_expansion
 		set_strategy = ai_strategy_territorial_expansion 
@@ -169,7 +164,12 @@
 		set_strategy = ai_strategy_territorial_expansion 
 		set_strategy = ai_strategy_nationalist_agenda
 	}
-4	c:RIO_GRANDE = {
+	c:TRAVANCORE = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_territorial_expansion 
+		set_strategy = ai_strategy_nationalist_agenda
+	}
+	c:RIO_GRANDE = {
 		set_strategy = ai_strategy_industrial_expansion
 		set_strategy = ai_strategy_territorial_expansion 
 		set_strategy = ai_strategy_nationalist_agenda
@@ -305,11 +305,6 @@
 		set_strategy = ai_strategy_nationalist_agenda
 	}
 	c:GUJARAT = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion 
-		set_strategy = ai_strategy_nationalist_agenda
-	}
-	c:TENASSERIM = {
 		set_strategy = ai_strategy_industrial_expansion
 		set_strategy = ai_strategy_territorial_expansion 
 		set_strategy = ai_strategy_nationalist_agenda

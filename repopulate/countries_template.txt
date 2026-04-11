@@ -1,0 +1,17 @@
+EMPTYLAND = {
+	color = { 255 230 226 }
+	country_type = decentralized
+	tier = principality
+	cultures = { byelorussian }
+	capital = STATE_MINSK
+}
+{% for nation in nations %}
+{{nation.id}} = {
+	color = {{ nation.color }}
+	country_type = recognized
+	tier = principality
+	cultures = { {{ nation.culture }} }
+	capital = STATE_{{nation.id}} 
+}
+{% endfor %}
+

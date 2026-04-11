@@ -1,0 +1,12 @@
+POPS = {
+  {% for nation in nations %}
+	s:STATE_{{nation.id}} = {
+    region_state:{{ nation.id }} = {
+      create_pop = {
+        culture = {{ nation.culture }}
+        size = 100000
+      }
+    }
+  }
+	{% endfor %}
+}
