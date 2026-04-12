@@ -4,7 +4,7 @@
     region_state:SVEALAND = {
       create_pop = {
         culture = swedish
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -13,7 +13,7 @@
     region_state:ZEALAND = {
       create_pop = {
         culture = danish
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -22,7 +22,7 @@
     region_state:HOME_COUNTIES = {
       create_pop = {
         culture = british
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -31,7 +31,7 @@
     region_state:WALES = {
       create_pop = {
         culture = welsh
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -40,7 +40,7 @@
     region_state:NORMANDY = {
       create_pop = {
         culture = french
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -49,7 +49,7 @@
     region_state:POITOU = {
       create_pop = {
         culture = occitan
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -58,7 +58,7 @@
     region_state:FRIESLAND = {
       create_pop = {
         culture = dutch
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -67,7 +67,7 @@
     region_state:POMERANIA = {
       create_pop = {
         culture = north_german
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -76,7 +76,7 @@
     region_state:PIEDMONT = {
       create_pop = {
         culture = north_italian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -85,7 +85,7 @@
     region_state:CALABRIA = {
       create_pop = {
         culture = south_italian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -94,7 +94,7 @@
     region_state:VENETIA = {
       create_pop = {
         culture = ashkenazi
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -103,7 +103,7 @@
     region_state:ASTURIAS = {
       create_pop = {
         culture = asturleonese
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -112,7 +112,7 @@
     region_state:VALENCIA = {
       create_pop = {
         culture = catalan
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -121,7 +121,7 @@
     region_state:ALBANIA = {
       create_pop = {
         culture = albanian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -130,7 +130,7 @@
     region_state:NORTHERN_THRACE = {
       create_pop = {
         culture = bulgarian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -139,7 +139,7 @@
     region_state:INGRIA = {
       create_pop = {
         culture = russian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -148,7 +148,7 @@
     region_state:LOWER_EGYPT = {
       create_pop = {
         culture = misri
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -157,7 +157,7 @@
     region_state:FEZ = {
       create_pop = {
         culture = maghrebi
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -166,7 +166,7 @@
     region_state:ORAN = {
       create_pop = {
         culture = berber
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -175,7 +175,7 @@
     region_state:TUNISIA = {
       create_pop = {
         culture = sephardic
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -184,7 +184,7 @@
     region_state:SIERRA_LEONE = {
       create_pop = {
         culture = equatorial_bantu
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -193,7 +193,7 @@
     region_state:LIBERIA = {
       create_pop = {
         culture = kru
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -202,7 +202,7 @@
     region_state:NIGER_DELTA = {
       create_pop = {
         culture = ibo
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -211,7 +211,7 @@
     region_state:TOGO = {
       create_pop = {
         culture = akan
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -220,7 +220,7 @@
     region_state:SOMALILAND = {
       create_pop = {
         culture = somali
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -229,7 +229,7 @@
     region_state:MOCAMBIQUE = {
       create_pop = {
         culture = makua
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -238,7 +238,7 @@
     region_state:SOUTH_ANGOLA = {
       create_pop = {
         culture = ovimbundu
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -247,7 +247,7 @@
     region_state:GABON = {
       create_pop = {
         culture = fang
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -256,7 +256,7 @@
     region_state:ZAMBEZIA = {
       create_pop = {
         culture = sena
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -265,7 +265,7 @@
     region_state:ZULULAND = {
       create_pop = {
         culture = zulu
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -274,7 +274,7 @@
     region_state:CAPE_COLONY = {
       create_pop = {
         culture = khoisan
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -283,7 +283,7 @@
     region_state:LOUISIANA = {
       create_pop = {
         culture = cajun
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -292,7 +292,7 @@
     region_state:NEW_YORK = {
       create_pop = {
         culture = yankee
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -301,7 +301,7 @@
     region_state:OREGON = {
       create_pop = {
         culture = salish
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -310,7 +310,7 @@
     region_state:MARYLAND = {
       create_pop = {
         culture = afro_american
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -319,7 +319,7 @@
     region_state:MAINE = {
       create_pop = {
         culture = anglo_canadian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -328,7 +328,7 @@
     region_state:SOUTH_CAROLINA = {
       create_pop = {
         culture = cherokee
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -337,7 +337,7 @@
     region_state:RIO_GRANDE = {
       create_pop = {
         culture = mexican
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -346,7 +346,7 @@
     region_state:YUCATAN = {
       create_pop = {
         culture = cree
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -355,7 +355,7 @@
     region_state:JALISCO = {
       create_pop = {
         culture = oodham
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -364,7 +364,7 @@
     region_state:CHIAPAS = {
       create_pop = {
         culture = mayan
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -373,7 +373,7 @@
     region_state:BAJA_CALIFORNIA = {
       create_pop = {
         culture = franco_canadian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -382,7 +382,7 @@
     region_state:NICARAGUA = {
       create_pop = {
         culture = central_american
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -391,7 +391,7 @@
     region_state:SANTO_DOMINGO = {
       create_pop = {
         culture = afro_antillean
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -400,7 +400,7 @@
     region_state:CENTRAL_CUBA = {
       create_pop = {
         culture = caribeno
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -409,7 +409,7 @@
     region_state:ECUADOR = {
       create_pop = {
         culture = north_andean
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -418,7 +418,7 @@
     region_state:BOLIVAR = {
       create_pop = {
         culture = amazonian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -427,7 +427,7 @@
     region_state:ANTIOQUIA = {
       create_pop = {
         culture = guajiro
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -436,7 +436,7 @@
     region_state:ANTOFAGASTA = {
       create_pop = {
         culture = aimara
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -445,7 +445,7 @@
     region_state:ICA = {
       create_pop = {
         culture = quechua
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -454,7 +454,7 @@
     region_state:BUENOS_AIRES = {
       create_pop = {
         culture = platinean
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -463,7 +463,7 @@
     region_state:SANTIAGO = {
       create_pop = {
         culture = south_andean
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -472,7 +472,7 @@
     region_state:RIO_GRANDE_DO_SUL = {
       create_pop = {
         culture = sulista
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -481,7 +481,7 @@
     region_state:SANTA_CATARINA = {
       create_pop = {
         culture = afro_brazilian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -490,7 +490,7 @@
     region_state:RIO_DE_JANEIRO = {
       create_pop = {
         culture = brazilian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -499,7 +499,7 @@
     region_state:MARANHAO = {
       create_pop = {
         culture = tupinamba
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -508,7 +508,7 @@
     region_state:OMAN = {
       create_pop = {
         culture = bedouin
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -517,7 +517,7 @@
     region_state:ABU_DHABI = {
       create_pop = {
         culture = sephardic
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -526,7 +526,7 @@
     region_state:LEBANON = {
       create_pop = {
         culture = mashriqi
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -535,7 +535,7 @@
     region_state:BASRA = {
       create_pop = {
         culture = north_caucasian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -544,7 +544,7 @@
     region_state:LARISTAN = {
       create_pop = {
         culture = persian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -553,7 +553,7 @@
     region_state:TRABZON = {
       create_pop = {
         culture = armenian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -562,7 +562,7 @@
     region_state:GREATER_CAUCASUS = {
       create_pop = {
         culture = georgian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -571,7 +571,7 @@
     region_state:EAST_BENGAL = {
       create_pop = {
         culture = bengali
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -580,7 +580,7 @@
     region_state:GUJARAT = {
       create_pop = {
         culture = gujarati
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -589,7 +589,7 @@
     region_state:SINDH = {
       create_pop = {
         culture = sindi
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -598,7 +598,7 @@
     region_state:CIRCARS = {
       create_pop = {
         culture = telegu
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -607,7 +607,7 @@
     region_state:TRAVANCORE = {
       create_pop = {
         culture = malayalam
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -616,7 +616,7 @@
     region_state:SHENGJING = {
       create_pop = {
         culture = han
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -625,7 +625,7 @@
     region_state:GUANGDONG = {
       create_pop = {
         culture = yue
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -634,7 +634,7 @@
     region_state:FUJIAN = {
       create_pop = {
         culture = min
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -643,7 +643,7 @@
     region_state:SHANDONG = {
       create_pop = {
         culture = han
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -652,7 +652,7 @@
     region_state:SUZHOU = {
       create_pop = {
         culture = mongol
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -661,7 +661,7 @@
     region_state:CAMBODIA = {
       create_pop = {
         culture = khmer
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -670,7 +670,7 @@
     region_state:ANNAM = {
       create_pop = {
         culture = vietnamese
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -679,7 +679,7 @@
     region_state:CHUBU = {
       create_pop = {
         culture = japanese
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -688,7 +688,7 @@
     region_state:SHIKOKU = {
       create_pop = {
         culture = japanese
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -697,7 +697,7 @@
     region_state:YANGHO = {
       create_pop = {
         culture = korean
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -706,7 +706,7 @@
     region_state:EAST_JAVA = {
       create_pop = {
         culture = javan
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -715,7 +715,7 @@
     region_state:NORTH_SUMATRA = {
       create_pop = {
         culture = sumatran
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -724,7 +724,7 @@
     region_state:OUTER_MANCHURIA = {
       create_pop = {
         culture = siberian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -733,7 +733,7 @@
     region_state:COURLAND = {
       create_pop = {
         culture = latvian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -742,7 +742,7 @@
     region_state:TALINN = {
       create_pop = {
         culture = estonian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -751,7 +751,7 @@
     region_state:CRIMEA = {
       create_pop = {
         culture = tatar
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -760,7 +760,7 @@
     region_state:BESSARABIA = {
       create_pop = {
         culture = ukrainian
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -769,7 +769,7 @@
     region_state:VICTORIA = {
       create_pop = {
         culture = aborigine
-        size = 100000
+        size = 200000
       }
     }
   }
@@ -778,7 +778,16 @@
     region_state:WESTERN_AUSTRALIA = {
       create_pop = {
         culture = australian
-        size = 100000
+        size = 200000
+      }
+    }
+  }
+	
+	s:STATE_AYDIN = {
+    region_state:AYDIN = {
+      create_pop = {
+        culture = turkish
+        size = 200000
       }
     }
   }

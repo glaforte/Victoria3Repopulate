@@ -85,5 +85,6 @@
   { "id": "CRIMEA", "name": "XXXX", "culture": "tatar", "color": "{ 155 208 49 }" },
   { "id": "BESSARABIA", "name": "XXXX", "culture": "ukrainian", "color": "{ 235 255 242 }" },
   { "id": "VICTORIA", "name": "XXXX", "culture": "aborigine", "color": "{ 200 129 68 }" },
-  { "id": "WESTERN_AUSTRALIA", "name": "XXXX", "culture": "australian", "color": "{ 85 130 135 }" }
+  { "id": "WESTERN_AUSTRALIA", "name": "XXXX", "culture": "australian", "color": "{ 85 130 135 }" },
+  { "id": "AYDIN", "name": "XXXX", "culture": "turkish", "color": "{ 105 130 135 }" }
 ]

@@ -14,8 +14,14 @@ TEMPLATE_DATA = [
     "input_file" : "repopulate/pops_template.txt",
     "output_file" : "common/history/pops/00_all_pops.txt"
   }, {
-    "input_file" : "repopulate/countries_template.txt",
+    "input_file" : "repopulate/country_definitions_template.txt",
     "output_file" : "common/country_definitions/00_countries.txt"
+  }, {
+    "input_file" : "repopulate/country_laws_template.txt",
+    "output_file" : "common/history/countries/00_all_countries.txt"
+  }, {
+    "input_file" : "repopulate/strategies_template.txt",
+    "output_file" : "common/history/ai/00_strategy.txt"
   }
 ]
 

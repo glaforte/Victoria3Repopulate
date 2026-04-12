@@ -4,7 +4,7 @@ POPS = {
     region_state:{{ nation.id }} = {
       create_pop = {
         culture = {{ nation.culture }}
-        size = 100000
+        size = 200000
       }
     }
   }
