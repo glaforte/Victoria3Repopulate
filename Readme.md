@@ -12,15 +12,3 @@ Thanks to the following MODs and their authors/maintainers for ideas and sample 
 3. Shattered World - Every state a country - Equalized Start. https://steamcommunity.com/sharedfiles/filedetails/?id=3282000394
 4. No Native Uprising by NoamLovesCats. https://steamcommunity.com/sharedfiles/filedetails/?id=3470565963&searchtext=No+Native+Uprisings
 5. BirthRate Laws by Shrimp. https://steamcommunity.com/sharedfiles/filedetails/?id=3653288986&searchtext=birthrate
-
-# Ideas
-How to proceed with a first release?
-- Need to reach 1M starting population so that the early game doesn't suck.
-
-+ Later
-- New building to access the world market from inland? Unbuildable / capital only?
-- New building to increase the birth rate? Unbuildable / capital only?
-
-++ Later
-- ProcGen the terrain, state and layers.
-

@@ -7,4 +7,3 @@ The AI colonizes properly and this gives it options, later on.
 After 10-20 years, most of the AIs are blocked but some have managed to build luxury good farms or resources exploitation and that makes them compete slightly with the player.
 The player's main challenge: dealing with the low population, once he figures out that he shouldn't build any construction yard.
 Colonization goes faster than the population rises, which gives infrastructure issues. Research also appears faster than the player can take advantage of.
-

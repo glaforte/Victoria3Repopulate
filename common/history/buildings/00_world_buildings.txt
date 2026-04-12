@@ -3,67 +3,9 @@
 	s:STATE_SVEALAND = {
 		region_state:SVEALAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SVEALAND"
-						levels=1
-						region="STATE_SVEALAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SVEALAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SVEALAND"
-						levels=1
-						region="STATE_SVEALAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SVEALAND"
-						levels=1
-						region="STATE_SVEALAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SVEALAND"
-						levels=1
-						region="STATE_SVEALAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -71,67 +13,9 @@
 	s:STATE_ZEALAND = {
 		region_state:ZEALAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ZEALAND"
-						levels=1
-						region="STATE_ZEALAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ZEALAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ZEALAND"
-						levels=1
-						region="STATE_ZEALAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ZEALAND"
-						levels=1
-						region="STATE_ZEALAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ZEALAND"
-						levels=1
-						region="STATE_ZEALAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -139,67 +23,9 @@
 	s:STATE_HOME_COUNTIES = {
 		region_state:HOME_COUNTIES = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:HOME_COUNTIES"
-						levels=1
-						region="STATE_HOME_COUNTIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:HOME_COUNTIES"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:HOME_COUNTIES"
-						levels=1
-						region="STATE_HOME_COUNTIES"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:HOME_COUNTIES"
-						levels=1
-						region="STATE_HOME_COUNTIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:HOME_COUNTIES"
-						levels=1
-						region="STATE_HOME_COUNTIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -207,67 +33,9 @@
 	s:STATE_WALES = {
 		region_state:WALES = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:WALES"
-						levels=1
-						region="STATE_WALES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:WALES"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:WALES"
-						levels=1
-						region="STATE_WALES"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:WALES"
-						levels=1
-						region="STATE_WALES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:WALES"
-						levels=1
-						region="STATE_WALES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -275,67 +43,9 @@
 	s:STATE_NORMANDY = {
 		region_state:NORMANDY = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:NORMANDY"
-						levels=1
-						region="STATE_NORMANDY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NORMANDY"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NORMANDY"
-						levels=1
-						region="STATE_NORMANDY"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NORMANDY"
-						levels=1
-						region="STATE_NORMANDY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NORMANDY"
-						levels=1
-						region="STATE_NORMANDY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -343,67 +53,9 @@
 	s:STATE_POITOU = {
 		region_state:POITOU = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:POITOU"
-						levels=1
-						region="STATE_POITOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:POITOU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:POITOU"
-						levels=1
-						region="STATE_POITOU"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:POITOU"
-						levels=1
-						region="STATE_POITOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:POITOU"
-						levels=1
-						region="STATE_POITOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -411,67 +63,9 @@
 	s:STATE_FRIESLAND = {
 		region_state:FRIESLAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:FRIESLAND"
-						levels=1
-						region="STATE_FRIESLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:FRIESLAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:FRIESLAND"
-						levels=1
-						region="STATE_FRIESLAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:FRIESLAND"
-						levels=1
-						region="STATE_FRIESLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:FRIESLAND"
-						levels=1
-						region="STATE_FRIESLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -479,67 +73,9 @@
 	s:STATE_POMERANIA = {
 		region_state:POMERANIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:POMERANIA"
-						levels=1
-						region="STATE_POMERANIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:POMERANIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:POMERANIA"
-						levels=1
-						region="STATE_POMERANIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:POMERANIA"
-						levels=1
-						region="STATE_POMERANIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:POMERANIA"
-						levels=1
-						region="STATE_POMERANIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -547,67 +83,9 @@
 	s:STATE_PIEDMONT = {
 		region_state:PIEDMONT = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:PIEDMONT"
-						levels=1
-						region="STATE_PIEDMONT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:PIEDMONT"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:PIEDMONT"
-						levels=1
-						region="STATE_PIEDMONT"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:PIEDMONT"
-						levels=1
-						region="STATE_PIEDMONT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:PIEDMONT"
-						levels=1
-						region="STATE_PIEDMONT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -615,67 +93,9 @@
 	s:STATE_CALABRIA = {
 		region_state:CALABRIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CALABRIA"
-						levels=1
-						region="STATE_CALABRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CALABRIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CALABRIA"
-						levels=1
-						region="STATE_CALABRIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CALABRIA"
-						levels=1
-						region="STATE_CALABRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CALABRIA"
-						levels=1
-						region="STATE_CALABRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -683,67 +103,9 @@
 	s:STATE_VENETIA = {
 		region_state:VENETIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:VENETIA"
-						levels=1
-						region="STATE_VENETIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:VENETIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:VENETIA"
-						levels=1
-						region="STATE_VENETIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:VENETIA"
-						levels=1
-						region="STATE_VENETIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:VENETIA"
-						levels=1
-						region="STATE_VENETIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -751,67 +113,9 @@
 	s:STATE_ASTURIAS = {
 		region_state:ASTURIAS = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ASTURIAS"
-						levels=1
-						region="STATE_ASTURIAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ASTURIAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ASTURIAS"
-						levels=1
-						region="STATE_ASTURIAS"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ASTURIAS"
-						levels=1
-						region="STATE_ASTURIAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ASTURIAS"
-						levels=1
-						region="STATE_ASTURIAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -819,67 +123,9 @@
 	s:STATE_VALENCIA = {
 		region_state:VALENCIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:VALENCIA"
-						levels=1
-						region="STATE_VALENCIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:VALENCIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:VALENCIA"
-						levels=1
-						region="STATE_VALENCIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:VALENCIA"
-						levels=1
-						region="STATE_VALENCIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:VALENCIA"
-						levels=1
-						region="STATE_VALENCIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -887,67 +133,9 @@
 	s:STATE_ALBANIA = {
 		region_state:ALBANIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ALBANIA"
-						levels=1
-						region="STATE_ALBANIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ALBANIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ALBANIA"
-						levels=1
-						region="STATE_ALBANIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ALBANIA"
-						levels=1
-						region="STATE_ALBANIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ALBANIA"
-						levels=1
-						region="STATE_ALBANIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -955,67 +143,9 @@
 	s:STATE_NORTHERN_THRACE = {
 		region_state:NORTHERN_THRACE = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:NORTHERN_THRACE"
-						levels=1
-						region="STATE_NORTHERN_THRACE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NORTHERN_THRACE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NORTHERN_THRACE"
-						levels=1
-						region="STATE_NORTHERN_THRACE"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NORTHERN_THRACE"
-						levels=1
-						region="STATE_NORTHERN_THRACE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NORTHERN_THRACE"
-						levels=1
-						region="STATE_NORTHERN_THRACE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1023,67 +153,9 @@
 	s:STATE_INGRIA = {
 		region_state:INGRIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:INGRIA"
-						levels=1
-						region="STATE_INGRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:INGRIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:INGRIA"
-						levels=1
-						region="STATE_INGRIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:INGRIA"
-						levels=1
-						region="STATE_INGRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:INGRIA"
-						levels=1
-						region="STATE_INGRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1091,67 +163,9 @@
 	s:STATE_LOWER_EGYPT = {
 		region_state:LOWER_EGYPT = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:LOWER_EGYPT"
-						levels=1
-						region="STATE_LOWER_EGYPT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:LOWER_EGYPT"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LOWER_EGYPT"
-						levels=1
-						region="STATE_LOWER_EGYPT"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:LOWER_EGYPT"
-						levels=1
-						region="STATE_LOWER_EGYPT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:LOWER_EGYPT"
-						levels=1
-						region="STATE_LOWER_EGYPT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1159,67 +173,9 @@
 	s:STATE_FEZ = {
 		region_state:FEZ = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:FEZ"
-						levels=1
-						region="STATE_FEZ"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:FEZ"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:FEZ"
-						levels=1
-						region="STATE_FEZ"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:FEZ"
-						levels=1
-						region="STATE_FEZ"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:FEZ"
-						levels=1
-						region="STATE_FEZ"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1227,67 +183,9 @@
 	s:STATE_ORAN = {
 		region_state:ORAN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ORAN"
-						levels=1
-						region="STATE_ORAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ORAN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ORAN"
-						levels=1
-						region="STATE_ORAN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ORAN"
-						levels=1
-						region="STATE_ORAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ORAN"
-						levels=1
-						region="STATE_ORAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1295,67 +193,9 @@
 	s:STATE_TUNISIA = {
 		region_state:TUNISIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:TUNISIA"
-						levels=1
-						region="STATE_TUNISIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:TUNISIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:TUNISIA"
-						levels=1
-						region="STATE_TUNISIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:TUNISIA"
-						levels=1
-						region="STATE_TUNISIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:TUNISIA"
-						levels=1
-						region="STATE_TUNISIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1363,67 +203,9 @@
 	s:STATE_SIERRA_LEONE = {
 		region_state:SIERRA_LEONE = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SIERRA_LEONE"
-						levels=1
-						region="STATE_SIERRA_LEONE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SIERRA_LEONE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SIERRA_LEONE"
-						levels=1
-						region="STATE_SIERRA_LEONE"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SIERRA_LEONE"
-						levels=1
-						region="STATE_SIERRA_LEONE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SIERRA_LEONE"
-						levels=1
-						region="STATE_SIERRA_LEONE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1431,67 +213,9 @@
 	s:STATE_LIBERIA = {
 		region_state:LIBERIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:LIBERIA"
-						levels=1
-						region="STATE_LIBERIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:LIBERIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LIBERIA"
-						levels=1
-						region="STATE_LIBERIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:LIBERIA"
-						levels=1
-						region="STATE_LIBERIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:LIBERIA"
-						levels=1
-						region="STATE_LIBERIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1499,67 +223,9 @@
 	s:STATE_NIGER_DELTA = {
 		region_state:NIGER_DELTA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:NIGER_DELTA"
-						levels=1
-						region="STATE_NIGER_DELTA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NIGER_DELTA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NIGER_DELTA"
-						levels=1
-						region="STATE_NIGER_DELTA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NIGER_DELTA"
-						levels=1
-						region="STATE_NIGER_DELTA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NIGER_DELTA"
-						levels=1
-						region="STATE_NIGER_DELTA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1567,67 +233,9 @@
 	s:STATE_TOGO = {
 		region_state:TOGO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:TOGO"
-						levels=1
-						region="STATE_TOGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:TOGO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:TOGO"
-						levels=1
-						region="STATE_TOGO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:TOGO"
-						levels=1
-						region="STATE_TOGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:TOGO"
-						levels=1
-						region="STATE_TOGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1635,67 +243,9 @@
 	s:STATE_SOMALILAND = {
 		region_state:SOMALILAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SOMALILAND"
-						levels=1
-						region="STATE_SOMALILAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SOMALILAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SOMALILAND"
-						levels=1
-						region="STATE_SOMALILAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SOMALILAND"
-						levels=1
-						region="STATE_SOMALILAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SOMALILAND"
-						levels=1
-						region="STATE_SOMALILAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1703,67 +253,9 @@
 	s:STATE_MOCAMBIQUE = {
 		region_state:MOCAMBIQUE = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:MOCAMBIQUE"
-						levels=1
-						region="STATE_MOCAMBIQUE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:MOCAMBIQUE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MOCAMBIQUE"
-						levels=1
-						region="STATE_MOCAMBIQUE"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:MOCAMBIQUE"
-						levels=1
-						region="STATE_MOCAMBIQUE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:MOCAMBIQUE"
-						levels=1
-						region="STATE_MOCAMBIQUE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1771,67 +263,9 @@
 	s:STATE_SOUTH_ANGOLA = {
 		region_state:SOUTH_ANGOLA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SOUTH_ANGOLA"
-						levels=1
-						region="STATE_SOUTH_ANGOLA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SOUTH_ANGOLA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SOUTH_ANGOLA"
-						levels=1
-						region="STATE_SOUTH_ANGOLA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SOUTH_ANGOLA"
-						levels=1
-						region="STATE_SOUTH_ANGOLA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SOUTH_ANGOLA"
-						levels=1
-						region="STATE_SOUTH_ANGOLA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1839,67 +273,9 @@
 	s:STATE_GABON = {
 		region_state:GABON = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:GABON"
-						levels=1
-						region="STATE_GABON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GABON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GABON"
-						levels=1
-						region="STATE_GABON"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:GABON"
-						levels=1
-						region="STATE_GABON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:GABON"
-						levels=1
-						region="STATE_GABON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1907,67 +283,9 @@
 	s:STATE_ZAMBEZIA = {
 		region_state:ZAMBEZIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ZAMBEZIA"
-						levels=1
-						region="STATE_ZAMBEZIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ZAMBEZIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ZAMBEZIA"
-						levels=1
-						region="STATE_ZAMBEZIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ZAMBEZIA"
-						levels=1
-						region="STATE_ZAMBEZIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ZAMBEZIA"
-						levels=1
-						region="STATE_ZAMBEZIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -1975,67 +293,9 @@
 	s:STATE_ZULULAND = {
 		region_state:ZULULAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ZULULAND"
-						levels=1
-						region="STATE_ZULULAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ZULULAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ZULULAND"
-						levels=1
-						region="STATE_ZULULAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ZULULAND"
-						levels=1
-						region="STATE_ZULULAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ZULULAND"
-						levels=1
-						region="STATE_ZULULAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2043,67 +303,9 @@
 	s:STATE_CAPE_COLONY = {
 		region_state:CAPE_COLONY = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CAPE_COLONY"
-						levels=1
-						region="STATE_CAPE_COLONY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CAPE_COLONY"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CAPE_COLONY"
-						levels=1
-						region="STATE_CAPE_COLONY"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CAPE_COLONY"
-						levels=1
-						region="STATE_CAPE_COLONY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CAPE_COLONY"
-						levels=1
-						region="STATE_CAPE_COLONY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2111,67 +313,9 @@
 	s:STATE_LOUISIANA = {
 		region_state:LOUISIANA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:LOUISIANA"
-						levels=1
-						region="STATE_LOUISIANA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:LOUISIANA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LOUISIANA"
-						levels=1
-						region="STATE_LOUISIANA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:LOUISIANA"
-						levels=1
-						region="STATE_LOUISIANA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:LOUISIANA"
-						levels=1
-						region="STATE_LOUISIANA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2179,67 +323,9 @@
 	s:STATE_NEW_YORK = {
 		region_state:NEW_YORK = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:NEW_YORK"
-						levels=1
-						region="STATE_NEW_YORK"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NEW_YORK"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NEW_YORK"
-						levels=1
-						region="STATE_NEW_YORK"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NEW_YORK"
-						levels=1
-						region="STATE_NEW_YORK"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NEW_YORK"
-						levels=1
-						region="STATE_NEW_YORK"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2247,67 +333,9 @@
 	s:STATE_OREGON = {
 		region_state:OREGON = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:OREGON"
-						levels=1
-						region="STATE_OREGON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:OREGON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:OREGON"
-						levels=1
-						region="STATE_OREGON"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:OREGON"
-						levels=1
-						region="STATE_OREGON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:OREGON"
-						levels=1
-						region="STATE_OREGON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2315,67 +343,9 @@
 	s:STATE_MARYLAND = {
 		region_state:MARYLAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:MARYLAND"
-						levels=1
-						region="STATE_MARYLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:MARYLAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MARYLAND"
-						levels=1
-						region="STATE_MARYLAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:MARYLAND"
-						levels=1
-						region="STATE_MARYLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:MARYLAND"
-						levels=1
-						region="STATE_MARYLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2383,67 +353,9 @@
 	s:STATE_MAINE = {
 		region_state:MAINE = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:MAINE"
-						levels=1
-						region="STATE_MAINE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:MAINE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MAINE"
-						levels=1
-						region="STATE_MAINE"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:MAINE"
-						levels=1
-						region="STATE_MAINE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:MAINE"
-						levels=1
-						region="STATE_MAINE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2451,67 +363,9 @@
 	s:STATE_SOUTH_CAROLINA = {
 		region_state:SOUTH_CAROLINA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SOUTH_CAROLINA"
-						levels=1
-						region="STATE_SOUTH_CAROLINA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SOUTH_CAROLINA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SOUTH_CAROLINA"
-						levels=1
-						region="STATE_SOUTH_CAROLINA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SOUTH_CAROLINA"
-						levels=1
-						region="STATE_SOUTH_CAROLINA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SOUTH_CAROLINA"
-						levels=1
-						region="STATE_SOUTH_CAROLINA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2519,67 +373,9 @@
 	s:STATE_RIO_GRANDE = {
 		region_state:RIO_GRANDE = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:RIO_GRANDE"
-						levels=1
-						region="STATE_RIO_GRANDE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:RIO_GRANDE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:RIO_GRANDE"
-						levels=1
-						region="STATE_RIO_GRANDE"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:RIO_GRANDE"
-						levels=1
-						region="STATE_RIO_GRANDE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:RIO_GRANDE"
-						levels=1
-						region="STATE_RIO_GRANDE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2587,67 +383,9 @@
 	s:STATE_YUCATAN = {
 		region_state:YUCATAN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:YUCATAN"
-						levels=1
-						region="STATE_YUCATAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:YUCATAN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:YUCATAN"
-						levels=1
-						region="STATE_YUCATAN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:YUCATAN"
-						levels=1
-						region="STATE_YUCATAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:YUCATAN"
-						levels=1
-						region="STATE_YUCATAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2655,67 +393,9 @@
 	s:STATE_JALISCO = {
 		region_state:JALISCO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:JALISCO"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:JALISCO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:JALISCO"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:JALISCO"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:JALISCO"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2723,67 +403,9 @@
 	s:STATE_CHIAPAS = {
 		region_state:CHIAPAS = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CHIAPAS"
-						levels=1
-						region="STATE_CHIAPAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CHIAPAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CHIAPAS"
-						levels=1
-						region="STATE_CHIAPAS"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CHIAPAS"
-						levels=1
-						region="STATE_CHIAPAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CHIAPAS"
-						levels=1
-						region="STATE_CHIAPAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2791,67 +413,9 @@
 	s:STATE_BAJA_CALIFORNIA = {
 		region_state:BAJA_CALIFORNIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:BAJA_CALIFORNIA"
-						levels=1
-						region="STATE_BAJA_CALIFORNIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:BAJA_CALIFORNIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:BAJA_CALIFORNIA"
-						levels=1
-						region="STATE_BAJA_CALIFORNIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:BAJA_CALIFORNIA"
-						levels=1
-						region="STATE_BAJA_CALIFORNIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:BAJA_CALIFORNIA"
-						levels=1
-						region="STATE_BAJA_CALIFORNIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2859,67 +423,9 @@
 	s:STATE_NICARAGUA = {
 		region_state:NICARAGUA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:NICARAGUA"
-						levels=1
-						region="STATE_NICARAGUA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NICARAGUA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NICARAGUA"
-						levels=1
-						region="STATE_NICARAGUA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NICARAGUA"
-						levels=1
-						region="STATE_NICARAGUA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NICARAGUA"
-						levels=1
-						region="STATE_NICARAGUA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2927,67 +433,9 @@
 	s:STATE_SANTO_DOMINGO = {
 		region_state:SANTO_DOMINGO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SANTO_DOMINGO"
-						levels=1
-						region="STATE_SANTO_DOMINGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SANTO_DOMINGO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SANTO_DOMINGO"
-						levels=1
-						region="STATE_SANTO_DOMINGO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SANTO_DOMINGO"
-						levels=1
-						region="STATE_SANTO_DOMINGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SANTO_DOMINGO"
-						levels=1
-						region="STATE_SANTO_DOMINGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -2995,67 +443,9 @@
 	s:STATE_CENTRAL_CUBA = {
 		region_state:CENTRAL_CUBA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CENTRAL_CUBA"
-						levels=1
-						region="STATE_CENTRAL_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CENTRAL_CUBA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CENTRAL_CUBA"
-						levels=1
-						region="STATE_CENTRAL_CUBA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CENTRAL_CUBA"
-						levels=1
-						region="STATE_CENTRAL_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CENTRAL_CUBA"
-						levels=1
-						region="STATE_CENTRAL_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3063,67 +453,9 @@
 	s:STATE_ECUADOR = {
 		region_state:ECUADOR = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ECUADOR"
-						levels=1
-						region="STATE_ECUADOR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ECUADOR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ECUADOR"
-						levels=1
-						region="STATE_ECUADOR"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ECUADOR"
-						levels=1
-						region="STATE_ECUADOR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ECUADOR"
-						levels=1
-						region="STATE_ECUADOR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3131,67 +463,9 @@
 	s:STATE_BOLIVAR = {
 		region_state:BOLIVAR = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:BOLIVAR"
-						levels=1
-						region="STATE_BOLIVAR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:BOLIVAR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:BOLIVAR"
-						levels=1
-						region="STATE_BOLIVAR"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:BOLIVAR"
-						levels=1
-						region="STATE_BOLIVAR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:BOLIVAR"
-						levels=1
-						region="STATE_BOLIVAR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3199,67 +473,9 @@
 	s:STATE_ANTIOQUIA = {
 		region_state:ANTIOQUIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ANTIOQUIA"
-						levels=1
-						region="STATE_ANTIOQUIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ANTIOQUIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ANTIOQUIA"
-						levels=1
-						region="STATE_ANTIOQUIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ANTIOQUIA"
-						levels=1
-						region="STATE_ANTIOQUIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ANTIOQUIA"
-						levels=1
-						region="STATE_ANTIOQUIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3267,67 +483,9 @@
 	s:STATE_ANTOFAGASTA = {
 		region_state:ANTOFAGASTA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ANTOFAGASTA"
-						levels=1
-						region="STATE_ANTOFAGASTA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ANTOFAGASTA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ANTOFAGASTA"
-						levels=1
-						region="STATE_ANTOFAGASTA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ANTOFAGASTA"
-						levels=1
-						region="STATE_ANTOFAGASTA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ANTOFAGASTA"
-						levels=1
-						region="STATE_ANTOFAGASTA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3335,67 +493,9 @@
 	s:STATE_ICA = {
 		region_state:ICA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ICA"
-						levels=1
-						region="STATE_ICA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ICA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ICA"
-						levels=1
-						region="STATE_ICA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ICA"
-						levels=1
-						region="STATE_ICA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ICA"
-						levels=1
-						region="STATE_ICA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3403,67 +503,9 @@
 	s:STATE_BUENOS_AIRES = {
 		region_state:BUENOS_AIRES = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:BUENOS_AIRES"
-						levels=1
-						region="STATE_BUENOS_AIRES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:BUENOS_AIRES"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:BUENOS_AIRES"
-						levels=1
-						region="STATE_BUENOS_AIRES"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:BUENOS_AIRES"
-						levels=1
-						region="STATE_BUENOS_AIRES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:BUENOS_AIRES"
-						levels=1
-						region="STATE_BUENOS_AIRES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3471,67 +513,9 @@
 	s:STATE_SANTIAGO = {
 		region_state:SANTIAGO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SANTIAGO"
-						levels=1
-						region="STATE_SANTIAGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SANTIAGO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SANTIAGO"
-						levels=1
-						region="STATE_SANTIAGO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SANTIAGO"
-						levels=1
-						region="STATE_SANTIAGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SANTIAGO"
-						levels=1
-						region="STATE_SANTIAGO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3539,67 +523,9 @@
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		region_state:RIO_GRANDE_DO_SUL = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:RIO_GRANDE_DO_SUL"
-						levels=1
-						region="STATE_RIO_GRANDE_DO_SUL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:RIO_GRANDE_DO_SUL"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:RIO_GRANDE_DO_SUL"
-						levels=1
-						region="STATE_RIO_GRANDE_DO_SUL"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:RIO_GRANDE_DO_SUL"
-						levels=1
-						region="STATE_RIO_GRANDE_DO_SUL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:RIO_GRANDE_DO_SUL"
-						levels=1
-						region="STATE_RIO_GRANDE_DO_SUL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3607,67 +533,9 @@
 	s:STATE_SANTA_CATARINA = {
 		region_state:SANTA_CATARINA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SANTA_CATARINA"
-						levels=1
-						region="STATE_SANTA_CATARINA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SANTA_CATARINA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SANTA_CATARINA"
-						levels=1
-						region="STATE_SANTA_CATARINA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SANTA_CATARINA"
-						levels=1
-						region="STATE_SANTA_CATARINA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SANTA_CATARINA"
-						levels=1
-						region="STATE_SANTA_CATARINA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3675,67 +543,9 @@
 	s:STATE_RIO_DE_JANEIRO = {
 		region_state:RIO_DE_JANEIRO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:RIO_DE_JANEIRO"
-						levels=1
-						region="STATE_RIO_DE_JANEIRO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:RIO_DE_JANEIRO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:RIO_DE_JANEIRO"
-						levels=1
-						region="STATE_RIO_DE_JANEIRO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:RIO_DE_JANEIRO"
-						levels=1
-						region="STATE_RIO_DE_JANEIRO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:RIO_DE_JANEIRO"
-						levels=1
-						region="STATE_RIO_DE_JANEIRO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3743,67 +553,9 @@
 	s:STATE_MARANHAO = {
 		region_state:MARANHAO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:MARANHAO"
-						levels=1
-						region="STATE_MARANHAO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:MARANHAO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MARANHAO"
-						levels=1
-						region="STATE_MARANHAO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:MARANHAO"
-						levels=1
-						region="STATE_MARANHAO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:MARANHAO"
-						levels=1
-						region="STATE_MARANHAO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3811,67 +563,9 @@
 	s:STATE_OMAN = {
 		region_state:OMAN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:OMAN"
-						levels=1
-						region="STATE_OMAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:OMAN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:OMAN"
-						levels=1
-						region="STATE_OMAN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:OMAN"
-						levels=1
-						region="STATE_OMAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:OMAN"
-						levels=1
-						region="STATE_OMAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3879,67 +573,9 @@
 	s:STATE_ABU_DHABI = {
 		region_state:ABU_DHABI = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ABU_DHABI"
-						levels=1
-						region="STATE_ABU_DHABI"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ABU_DHABI"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ABU_DHABI"
-						levels=1
-						region="STATE_ABU_DHABI"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ABU_DHABI"
-						levels=1
-						region="STATE_ABU_DHABI"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ABU_DHABI"
-						levels=1
-						region="STATE_ABU_DHABI"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -3947,67 +583,9 @@
 	s:STATE_LEBANON = {
 		region_state:LEBANON = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:LEBANON"
-						levels=1
-						region="STATE_LEBANON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:LEBANON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LEBANON"
-						levels=1
-						region="STATE_LEBANON"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:LEBANON"
-						levels=1
-						region="STATE_LEBANON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:LEBANON"
-						levels=1
-						region="STATE_LEBANON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4015,67 +593,9 @@
 	s:STATE_BASRA = {
 		region_state:BASRA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:BASRA"
-						levels=1
-						region="STATE_BASRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:BASRA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:BASRA"
-						levels=1
-						region="STATE_BASRA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:BASRA"
-						levels=1
-						region="STATE_BASRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:BASRA"
-						levels=1
-						region="STATE_BASRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4083,67 +603,9 @@
 	s:STATE_LARISTAN = {
 		region_state:LARISTAN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:LARISTAN"
-						levels=1
-						region="STATE_LARISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:LARISTAN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LARISTAN"
-						levels=1
-						region="STATE_LARISTAN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:LARISTAN"
-						levels=1
-						region="STATE_LARISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:LARISTAN"
-						levels=1
-						region="STATE_LARISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4151,67 +613,9 @@
 	s:STATE_TRABZON = {
 		region_state:TRABZON = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:TRABZON"
-						levels=1
-						region="STATE_TRABZON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:TRABZON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:TRABZON"
-						levels=1
-						region="STATE_TRABZON"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:TRABZON"
-						levels=1
-						region="STATE_TRABZON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:TRABZON"
-						levels=1
-						region="STATE_TRABZON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4219,67 +623,9 @@
 	s:STATE_GREATER_CAUCASUS = {
 		region_state:GREATER_CAUCASUS = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:GREATER_CAUCASUS"
-						levels=1
-						region="STATE_GREATER_CAUCASUS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GREATER_CAUCASUS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GREATER_CAUCASUS"
-						levels=1
-						region="STATE_GREATER_CAUCASUS"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:GREATER_CAUCASUS"
-						levels=1
-						region="STATE_GREATER_CAUCASUS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:GREATER_CAUCASUS"
-						levels=1
-						region="STATE_GREATER_CAUCASUS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4287,67 +633,9 @@
 	s:STATE_EAST_BENGAL = {
 		region_state:EAST_BENGAL = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:EAST_BENGAL"
-						levels=1
-						region="STATE_EAST_BENGAL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:EAST_BENGAL"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:EAST_BENGAL"
-						levels=1
-						region="STATE_EAST_BENGAL"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:EAST_BENGAL"
-						levels=1
-						region="STATE_EAST_BENGAL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:EAST_BENGAL"
-						levels=1
-						region="STATE_EAST_BENGAL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4355,67 +643,9 @@
 	s:STATE_GUJARAT = {
 		region_state:GUJARAT = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:GUJARAT"
-						levels=1
-						region="STATE_GUJARAT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GUJARAT"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GUJARAT"
-						levels=1
-						region="STATE_GUJARAT"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:GUJARAT"
-						levels=1
-						region="STATE_GUJARAT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:GUJARAT"
-						levels=1
-						region="STATE_GUJARAT"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4423,67 +653,9 @@
 	s:STATE_SINDH = {
 		region_state:SINDH = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SINDH"
-						levels=1
-						region="STATE_SINDH"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SINDH"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SINDH"
-						levels=1
-						region="STATE_SINDH"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SINDH"
-						levels=1
-						region="STATE_SINDH"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SINDH"
-						levels=1
-						region="STATE_SINDH"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4491,67 +663,9 @@
 	s:STATE_CIRCARS = {
 		region_state:CIRCARS = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CIRCARS"
-						levels=1
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CIRCARS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CIRCARS"
-						levels=1
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CIRCARS"
-						levels=1
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CIRCARS"
-						levels=1
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4559,67 +673,9 @@
 	s:STATE_TRAVANCORE = {
 		region_state:TRAVANCORE = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:TRAVANCORE"
-						levels=1
-						region="STATE_TRAVANCORE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:TRAVANCORE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:TRAVANCORE"
-						levels=1
-						region="STATE_TRAVANCORE"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:TRAVANCORE"
-						levels=1
-						region="STATE_TRAVANCORE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:TRAVANCORE"
-						levels=1
-						region="STATE_TRAVANCORE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4627,67 +683,9 @@
 	s:STATE_SHENGJING = {
 		region_state:SHENGJING = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SHENGJING"
-						levels=1
-						region="STATE_SHENGJING"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SHENGJING"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SHENGJING"
-						levels=1
-						region="STATE_SHENGJING"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SHENGJING"
-						levels=1
-						region="STATE_SHENGJING"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SHENGJING"
-						levels=1
-						region="STATE_SHENGJING"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4695,67 +693,9 @@
 	s:STATE_GUANGDONG = {
 		region_state:GUANGDONG = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:GUANGDONG"
-						levels=1
-						region="STATE_GUANGDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GUANGDONG"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GUANGDONG"
-						levels=1
-						region="STATE_GUANGDONG"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:GUANGDONG"
-						levels=1
-						region="STATE_GUANGDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:GUANGDONG"
-						levels=1
-						region="STATE_GUANGDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4763,67 +703,9 @@
 	s:STATE_FUJIAN = {
 		region_state:FUJIAN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:FUJIAN"
-						levels=1
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:FUJIAN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:FUJIAN"
-						levels=1
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:FUJIAN"
-						levels=1
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:FUJIAN"
-						levels=1
-						region="STATE_FUJIAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4831,67 +713,9 @@
 	s:STATE_SHANDONG = {
 		region_state:SHANDONG = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SHANDONG"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SHANDONG"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SHANDONG"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SHANDONG"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SHANDONG"
-						levels=1
-						region="STATE_SHANDONG"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4899,67 +723,9 @@
 	s:STATE_SUZHOU = {
 		region_state:SUZHOU = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SUZHOU"
-						levels=1
-						region="STATE_SUZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SUZHOU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SUZHOU"
-						levels=1
-						region="STATE_SUZHOU"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SUZHOU"
-						levels=1
-						region="STATE_SUZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SUZHOU"
-						levels=1
-						region="STATE_SUZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -4967,67 +733,9 @@
 	s:STATE_CAMBODIA = {
 		region_state:CAMBODIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CAMBODIA"
-						levels=1
-						region="STATE_CAMBODIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CAMBODIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CAMBODIA"
-						levels=1
-						region="STATE_CAMBODIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CAMBODIA"
-						levels=1
-						region="STATE_CAMBODIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CAMBODIA"
-						levels=1
-						region="STATE_CAMBODIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5035,67 +743,9 @@
 	s:STATE_ANNAM = {
 		region_state:ANNAM = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:ANNAM"
-						levels=1
-						region="STATE_ANNAM"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ANNAM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:ANNAM"
-						levels=1
-						region="STATE_ANNAM"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ANNAM"
-						levels=1
-						region="STATE_ANNAM"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ANNAM"
-						levels=1
-						region="STATE_ANNAM"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5103,67 +753,9 @@
 	s:STATE_CHUBU = {
 		region_state:CHUBU = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CHUBU"
-						levels=1
-						region="STATE_CHUBU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CHUBU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CHUBU"
-						levels=1
-						region="STATE_CHUBU"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CHUBU"
-						levels=1
-						region="STATE_CHUBU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CHUBU"
-						levels=1
-						region="STATE_CHUBU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5171,67 +763,9 @@
 	s:STATE_SHIKOKU = {
 		region_state:SHIKOKU = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:SHIKOKU"
-						levels=1
-						region="STATE_SHIKOKU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SHIKOKU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:SHIKOKU"
-						levels=1
-						region="STATE_SHIKOKU"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:SHIKOKU"
-						levels=1
-						region="STATE_SHIKOKU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:SHIKOKU"
-						levels=1
-						region="STATE_SHIKOKU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5239,67 +773,9 @@
 	s:STATE_YANGHO = {
 		region_state:YANGHO = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:YANGHO"
-						levels=1
-						region="STATE_YANGHO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:YANGHO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:YANGHO"
-						levels=1
-						region="STATE_YANGHO"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:YANGHO"
-						levels=1
-						region="STATE_YANGHO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:YANGHO"
-						levels=1
-						region="STATE_YANGHO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5307,67 +783,9 @@
 	s:STATE_EAST_JAVA = {
 		region_state:EAST_JAVA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:EAST_JAVA"
-						levels=1
-						region="STATE_EAST_JAVA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:EAST_JAVA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:EAST_JAVA"
-						levels=1
-						region="STATE_EAST_JAVA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:EAST_JAVA"
-						levels=1
-						region="STATE_EAST_JAVA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:EAST_JAVA"
-						levels=1
-						region="STATE_EAST_JAVA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5375,67 +793,9 @@
 	s:STATE_NORTH_SUMATRA = {
 		region_state:NORTH_SUMATRA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:NORTH_SUMATRA"
-						levels=1
-						region="STATE_NORTH_SUMATRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NORTH_SUMATRA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NORTH_SUMATRA"
-						levels=1
-						region="STATE_NORTH_SUMATRA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NORTH_SUMATRA"
-						levels=1
-						region="STATE_NORTH_SUMATRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NORTH_SUMATRA"
-						levels=1
-						region="STATE_NORTH_SUMATRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5443,67 +803,9 @@
 	s:STATE_OUTER_MANCHURIA = {
 		region_state:OUTER_MANCHURIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:OUTER_MANCHURIA"
-						levels=1
-						region="STATE_OUTER_MANCHURIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:OUTER_MANCHURIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:OUTER_MANCHURIA"
-						levels=1
-						region="STATE_OUTER_MANCHURIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:OUTER_MANCHURIA"
-						levels=1
-						region="STATE_OUTER_MANCHURIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:OUTER_MANCHURIA"
-						levels=1
-						region="STATE_OUTER_MANCHURIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5511,67 +813,9 @@
 	s:STATE_COURLAND = {
 		region_state:COURLAND = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:COURLAND"
-						levels=1
-						region="STATE_COURLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:COURLAND"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:COURLAND"
-						levels=1
-						region="STATE_COURLAND"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:COURLAND"
-						levels=1
-						region="STATE_COURLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:COURLAND"
-						levels=1
-						region="STATE_COURLAND"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5579,67 +823,9 @@
 	s:STATE_TALINN = {
 		region_state:TALINN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:TALINN"
-						levels=1
-						region="STATE_TALINN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:TALINN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:TALINN"
-						levels=1
-						region="STATE_TALINN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:TALINN"
-						levels=1
-						region="STATE_TALINN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:TALINN"
-						levels=1
-						region="STATE_TALINN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5647,67 +833,9 @@
 	s:STATE_CRIMEA = {
 		region_state:CRIMEA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:CRIMEA"
-						levels=1
-						region="STATE_CRIMEA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CRIMEA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:CRIMEA"
-						levels=1
-						region="STATE_CRIMEA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CRIMEA"
-						levels=1
-						region="STATE_CRIMEA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CRIMEA"
-						levels=1
-						region="STATE_CRIMEA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5715,67 +843,9 @@
 	s:STATE_BESSARABIA = {
 		region_state:BESSARABIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:BESSARABIA"
-						levels=1
-						region="STATE_BESSARABIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:BESSARABIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:BESSARABIA"
-						levels=1
-						region="STATE_BESSARABIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:BESSARABIA"
-						levels=1
-						region="STATE_BESSARABIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:BESSARABIA"
-						levels=1
-						region="STATE_BESSARABIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5783,67 +853,9 @@
 	s:STATE_VICTORIA = {
 		region_state:VICTORIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:VICTORIA"
-						levels=1
-						region="STATE_VICTORIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:VICTORIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:VICTORIA"
-						levels=1
-						region="STATE_VICTORIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:VICTORIA"
-						levels=1
-						region="STATE_VICTORIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:VICTORIA"
-						levels=1
-						region="STATE_VICTORIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5851,67 +863,9 @@
 	s:STATE_WESTERN_AUSTRALIA = {
 		region_state:WESTERN_AUSTRALIA = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:WESTERN_AUSTRALIA"
-						levels=1
-						region="STATE_WESTERN_AUSTRALIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:WESTERN_AUSTRALIA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:WESTERN_AUSTRALIA"
-						levels=1
-						region="STATE_WESTERN_AUSTRALIA"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:WESTERN_AUSTRALIA"
-						levels=1
-						region="STATE_WESTERN_AUSTRALIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:WESTERN_AUSTRALIA"
-						levels=1
-						region="STATE_WESTERN_AUSTRALIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
@@ -5919,67 +873,9 @@
 	s:STATE_AYDIN = {
 		region_state:AYDIN = {
 			create_building={
-				building="building_shipyard"
-				add_ownership={
-					building={
-						type="building_shipyard"
-						country="c:AYDIN"
-						levels=1
-						region="STATE_AYDIN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:AYDIN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:AYDIN"
-						levels=1
-						region="STATE_AYDIN"
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:AYDIN"
-						levels=1
-						region="STATE_AYDIN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:AYDIN"
-						levels=1
-						region="STATE_AYDIN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				building="building_generation_ship"
+				level = 1
+				activate_production_methods={ "pm_generation_ship" }
 			}
 		}
 	}
