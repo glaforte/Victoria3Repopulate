@@ -1,15 +1,16 @@
 
-pm_generation_ship = {
+pm_generation_ship_cloning = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
 
-	is_hidden_when_unavailable = no
+	is_hidden_when_unavailable = yes
 
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 10
-			state_birth_rate_mult = 0.50
 		}
 	}
+
+	unlocking_technologies = { none }
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -20,8 +21,8 @@ pm_generation_ship = {
 		level_scaled = {
 			building_employment_clergymen_add = 500
 			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add = 1000
-			building_employment_clerks_add = 1000
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 500
 		}
 	}
 }

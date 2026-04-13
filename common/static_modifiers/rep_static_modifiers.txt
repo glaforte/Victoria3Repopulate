@@ -1,0 +1,8 @@
+repopulation_generation_ships_landed = {
+	icon = "gfx/interface/icons/generation_ship.dds"
+}
+
+repopulation_generation_ships_enabled = {
+	icon = "gfx/interface/icons/generation_ship.dds"
+	state_birth_rate_mult = 1.5
+}

@@ -10,9 +10,5 @@ building_generation_ship = {
 		pmg_repopulate_generation_ship
 	}
 
-	# potential = {
-	#	state_region = s:STATE_MARYLAND
-	# }
-
 	background = "gfx/interface/icons/generation_ship.dds"
 }

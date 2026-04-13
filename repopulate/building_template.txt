@@ -5,7 +5,7 @@ BUILDINGS = {
 			create_building={
 				building="building_generation_ship"
 				level = 1
-				activate_production_methods={ "pm_generation_ship" }
+				activate_production_methods={ "pm_generation_ship_cloning" }
 			}
 			create_building={
 				building="building_shipyard"
