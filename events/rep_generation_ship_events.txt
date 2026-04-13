@@ -36,7 +36,7 @@ repopulation_enable_generation_ships = {
 		
 		add_modifier = {
 			name = repopulation_generation_ships_enabled
-			days = 10 * 365
+			days = 3650
 		}
 	}
 }

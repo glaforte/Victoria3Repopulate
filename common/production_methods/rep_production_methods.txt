@@ -14,8 +14,8 @@ pm_generation_ship_cloning = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 5
-			goods_output_fruit_add = 5
+			goods_output_grain_add = 10
+			goods_output_fruit_add = 10
 		}
 
 		level_scaled = {

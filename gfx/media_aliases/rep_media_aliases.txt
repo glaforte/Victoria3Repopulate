@@ -1,6 +1,7 @@
 ﻿
 repopulate_generation_ship_video = {
   texture = "gfx/interface/icons/generation_ship.dds"
-  video = "gfx/interface/icons/generation_ship.dds"
+  # video = "gfx/interface/icons/generation_ship.dds"
+  audio = "event:/SFX/Events/africa/city_center"
 }
 
