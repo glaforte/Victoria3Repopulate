@@ -1,4 +1,4 @@
-repopulation_generation_ships_landed = {
+﻿repopulation_generation_ships_landed = {
 	icon = "gfx/interface/icons/generation_ship.dds"
 }
 

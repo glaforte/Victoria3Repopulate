@@ -1,4 +1,4 @@
-NDiplomacy = { 
+﻿NDiplomacy = { 
 TENSION_INCREASE_MIN = 0
 TENSION_INCREASE_MAX = 0
 MAX_TENSION = 1

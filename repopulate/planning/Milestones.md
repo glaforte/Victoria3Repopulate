@@ -10,3 +10,8 @@ Colonization goes faster than the population rises, which gives infrastructure i
 
 # V0.2
 Added a new building, the generation ship with some food and a birth rate boost helps the countries start.
+The AI still has significant issues growing its economy, due to the cost of fabric.
+The Player can fix most of his issues by eventually colonizing on multiple continents.
+Maybe having staggered population growth over multiple 10y periods will help the population grow.
+Maybe give +10 timber and +10 fabric to the generation ship?
+
