@@ -84,6 +84,26 @@
 		effect_starting_pop_literacy_low = yes
 	}
 	
+	c:COURLAND = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:TALINN = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:CRIMEA = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:BESSARABIA = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
 	c:LOWER_EGYPT = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
@@ -284,6 +304,11 @@
 		effect_starting_pop_literacy_low = yes
 	}
 	
+	c:AYDIN = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
 	c:OMAN = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
@@ -344,6 +369,11 @@
 		effect_starting_pop_literacy_low = yes
 	}
 	
+	c:PEGU = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
 	c:SHENGJING = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
@@ -394,37 +424,17 @@
 		effect_starting_pop_literacy_low = yes
 	}
 	
+	c:OUTER_MANCHURIA = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	
 	c:EAST_JAVA = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
 	}
 	
 	c:NORTH_SUMATRA = {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_low = yes
-	}
-	
-	c:OUTER_MANCHURIA = {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_low = yes
-	}
-	
-	c:COURLAND = {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_low = yes
-	}
-	
-	c:TALINN = {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_low = yes
-	}
-	
-	c:CRIMEA = {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_low = yes
-	}
-	
-	c:BESSARABIA = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
 	}
@@ -439,7 +449,7 @@
 		effect_starting_pop_literacy_low = yes
 	}
 	
-	c:AYDIN = {
+	c:NORTH_ISLAND = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
 	}

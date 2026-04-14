@@ -1,4 +1,4 @@
-
+﻿
 building_generation_ship = {
 	building_group = bg_monuments
 	icon = "gfx/interface/icons/generation_ship.dds"

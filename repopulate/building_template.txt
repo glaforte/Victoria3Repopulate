@@ -44,6 +44,9 @@ BUILDINGS = {
 				}
 				reserves=1
 			}
+
+			# Add some economic buildings specific to each state, to kick-start the world economy.
+			{% if nation.has_fishing_wharf %}
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
@@ -57,6 +60,7 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
+			{% endif %}{% if nation.has_logging_camp %}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -70,6 +74,217 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
+			{% endif %}{% if nation.has_livestock_ranch %}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			{% endif %}{% if nation.has_rye_farm %}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			{% endif %}{% if nation.has_rice_farm %}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_no_secondary" }
+			}
+			{% endif %}{% if nation.has_wheat_farm %}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			{% endif %}{% if nation.has_millet_farm %}
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			{% endif %}{% if nation.has_vineyard %}
+			create_building={
+				building="building_vineyard"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_whaling_station %}
+			create_building={
+				building="building_whaling_station"
+				add_ownership={
+					building={
+						type="building_whaling_station"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_unrefrigerated" "pm_wooden_whaling_ships" }
+			}
+			{% endif %}{% if nation.has_cotton_plantation %}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					building={
+						type="building_cotton_plantation"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_silk_plantation %}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_banana_plantation %}
+			create_building={
+				building="building_banana_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_coffee_plantation %}
+			create_building={
+				building="building_coffee_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "coffee_plantation_dry_process" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_tea_plantation %}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_sugar_plantation %}
+			create_building={
+				building="building_sugar_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_dye_plantation %}
+			create_building={
+				building="building_dye_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
+			}
+			{% endif %}{% if nation.has_tobacco_plantation %}
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:{{ nation.id }}"
+						levels=1
+						region="STATE_{{ nation.id }}"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			}
+			{% endif %}
 		}
 	}
 {% endfor %}

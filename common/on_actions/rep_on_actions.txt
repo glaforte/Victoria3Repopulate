@@ -1,0 +1,10 @@
+﻿
+on_game_started = {
+	effect = {
+		every_country = {
+
+			# Generation Ship Landing
+			trigger_event = repopulate_mod.1
+		}
+	}
+}

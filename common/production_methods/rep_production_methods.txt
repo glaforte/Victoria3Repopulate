@@ -1,4 +1,4 @@
-
+﻿
 pm_generation_ship_cloning = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
 
@@ -6,11 +6,10 @@ pm_generation_ship_cloning = {
 
 	state_modifiers = {
 		workforce_scaled = {
+			state_birth_rate_mult = 0.2
 			state_infrastructure_add = 10
 		}
 	}
-
-	unlocking_technologies = { none }
 
 	building_modifiers = {
 		workforce_scaled = {

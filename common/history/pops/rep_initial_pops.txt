@@ -144,6 +144,42 @@
     }
   }
 	
+	s:STATE_COURLAND = {
+    region_state:COURLAND = {
+      create_pop = {
+        culture = latvian
+        size = 200000
+      }
+    }
+  }
+	
+	s:STATE_TALINN = {
+    region_state:TALINN = {
+      create_pop = {
+        culture = estonian
+        size = 200000
+      }
+    }
+  }
+	
+	s:STATE_CRIMEA = {
+    region_state:CRIMEA = {
+      create_pop = {
+        culture = tatar
+        size = 200000
+      }
+    }
+  }
+	
+	s:STATE_BESSARABIA = {
+    region_state:BESSARABIA = {
+      create_pop = {
+        culture = ukrainian
+        size = 200000
+      }
+    }
+  }
+	
 	s:STATE_LOWER_EGYPT = {
     region_state:LOWER_EGYPT = {
       create_pop = {
@@ -504,6 +540,15 @@
     }
   }
 	
+	s:STATE_AYDIN = {
+    region_state:AYDIN = {
+      create_pop = {
+        culture = turkish
+        size = 200000
+      }
+    }
+  }
+	
 	s:STATE_OMAN = {
     region_state:OMAN = {
       create_pop = {
@@ -612,6 +657,15 @@
     }
   }
 	
+	s:STATE_PEGU = {
+    region_state:PEGU = {
+      create_pop = {
+        culture = iroquoian
+        size = 200000
+      }
+    }
+  }
+	
 	s:STATE_SHENGJING = {
     region_state:SHENGJING = {
       create_pop = {
@@ -702,6 +756,15 @@
     }
   }
 	
+	s:STATE_OUTER_MANCHURIA = {
+    region_state:OUTER_MANCHURIA = {
+      create_pop = {
+        culture = siberian
+        size = 200000
+      }
+    }
+  }
+	
 	s:STATE_EAST_JAVA = {
     region_state:EAST_JAVA = {
       create_pop = {
@@ -715,51 +778,6 @@
     region_state:NORTH_SUMATRA = {
       create_pop = {
         culture = sumatran
-        size = 200000
-      }
-    }
-  }
-	
-	s:STATE_OUTER_MANCHURIA = {
-    region_state:OUTER_MANCHURIA = {
-      create_pop = {
-        culture = siberian
-        size = 200000
-      }
-    }
-  }
-	
-	s:STATE_COURLAND = {
-    region_state:COURLAND = {
-      create_pop = {
-        culture = latvian
-        size = 200000
-      }
-    }
-  }
-	
-	s:STATE_TALINN = {
-    region_state:TALINN = {
-      create_pop = {
-        culture = estonian
-        size = 200000
-      }
-    }
-  }
-	
-	s:STATE_CRIMEA = {
-    region_state:CRIMEA = {
-      create_pop = {
-        culture = tatar
-        size = 200000
-      }
-    }
-  }
-	
-	s:STATE_BESSARABIA = {
-    region_state:BESSARABIA = {
-      create_pop = {
-        culture = ukrainian
         size = 200000
       }
     }
@@ -783,10 +801,10 @@
     }
   }
 	
-	s:STATE_AYDIN = {
-    region_state:AYDIN = {
+	s:STATE_NORTH_ISLAND = {
+    region_state:NORTH_ISLAND = {
       create_pop = {
-        culture = turkish
+        culture = maori
         size = 200000
       }
     }

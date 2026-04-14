@@ -128,6 +128,38 @@
 		# set_strategy = ai_strategy_territorial_expansion
 		# set_strategy = ai_strategy_nationalist_agenda
 	} 
+	c:COURLAND = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:TALINN = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:CRIMEA = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:BESSARABIA = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
 	c:LOWER_EGYPT = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
@@ -448,6 +480,14 @@
 		# set_strategy = ai_strategy_territorial_expansion
 		# set_strategy = ai_strategy_nationalist_agenda
 	} 
+	c:AYDIN = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
 	c:OMAN = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
@@ -544,6 +584,14 @@
 		# set_strategy = ai_strategy_territorial_expansion
 		# set_strategy = ai_strategy_nationalist_agenda
 	} 
+	c:PEGU = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
 	c:SHENGJING = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
@@ -624,6 +672,14 @@
 		# set_strategy = ai_strategy_territorial_expansion
 		# set_strategy = ai_strategy_nationalist_agenda
 	} 
+	c:OUTER_MANCHURIA = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+		# set_strategy = ai_strategy_industrial_expansion
+		# set_strategy = ai_strategy_territorial_expansion
+		# set_strategy = ai_strategy_nationalist_agenda
+	} 
 	c:EAST_JAVA = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
@@ -633,46 +689,6 @@
 		# set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:NORTH_SUMATRA = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-		# set_strategy = ai_strategy_industrial_expansion
-		# set_strategy = ai_strategy_territorial_expansion
-		# set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:OUTER_MANCHURIA = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-		# set_strategy = ai_strategy_industrial_expansion
-		# set_strategy = ai_strategy_territorial_expansion
-		# set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:COURLAND = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-		# set_strategy = ai_strategy_industrial_expansion
-		# set_strategy = ai_strategy_territorial_expansion
-		# set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:TALINN = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-		# set_strategy = ai_strategy_industrial_expansion
-		# set_strategy = ai_strategy_territorial_expansion
-		# set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:CRIMEA = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-		# set_strategy = ai_strategy_industrial_expansion
-		# set_strategy = ai_strategy_territorial_expansion
-		# set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:BESSARABIA = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_conservative_agenda
@@ -696,7 +712,7 @@
 		# set_strategy = ai_strategy_territorial_expansion
 		# set_strategy = ai_strategy_nationalist_agenda
 	} 
-	c:AYDIN = {
+	c:NORTH_ISLAND = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_conservative_agenda

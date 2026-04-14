@@ -134,6 +134,38 @@ INGRIA = {
 	capital = STATE_INGRIA 
 }
 
+COURLAND = {
+	color = { 140 54 61 }
+	country_type = recognized
+	tier = principality
+	cultures = { latvian }
+	capital = STATE_COURLAND 
+}
+
+TALINN = {
+	color = { 201 199 194 }
+	country_type = recognized
+	tier = principality
+	cultures = { estonian }
+	capital = STATE_TALINN 
+}
+
+CRIMEA = {
+	color = { 155 208 49 }
+	country_type = recognized
+	tier = principality
+	cultures = { tatar }
+	capital = STATE_CRIMEA 
+}
+
+BESSARABIA = {
+	color = { 235 255 242 }
+	country_type = recognized
+	tier = principality
+	cultures = { ukrainian }
+	capital = STATE_BESSARABIA 
+}
+
 LOWER_EGYPT = {
 	color = { 0 96 0 }
 	country_type = recognized
@@ -454,6 +486,14 @@ MARANHAO = {
 	capital = STATE_MARANHAO 
 }
 
+AYDIN = {
+	color = { 105 130 135 }
+	country_type = recognized
+	tier = principality
+	cultures = { turkish }
+	capital = STATE_AYDIN 
+}
+
 OMAN = {
 	color = { 4 131 134 }
 	country_type = recognized
@@ -550,6 +590,14 @@ TRAVANCORE = {
 	capital = STATE_TRAVANCORE 
 }
 
+PEGU = {
+	color = { 5 230 165 }
+	country_type = recognized
+	tier = principality
+	cultures = { iroquoian }
+	capital = STATE_PEGU 
+}
+
 SHENGJING = {
 	color = { 124 255 0 }
 	country_type = recognized
@@ -630,6 +678,14 @@ YANGHO = {
 	capital = STATE_YANGHO 
 }
 
+OUTER_MANCHURIA = {
+	color = { 228 225 247 }
+	country_type = recognized
+	tier = principality
+	cultures = { siberian }
+	capital = STATE_OUTER_MANCHURIA 
+}
+
 EAST_JAVA = {
 	color = { 159 188 208 }
 	country_type = recognized
@@ -644,46 +700,6 @@ NORTH_SUMATRA = {
 	tier = principality
 	cultures = { sumatran }
 	capital = STATE_NORTH_SUMATRA 
-}
-
-OUTER_MANCHURIA = {
-	color = { 228 225 247 }
-	country_type = recognized
-	tier = principality
-	cultures = { siberian }
-	capital = STATE_OUTER_MANCHURIA 
-}
-
-COURLAND = {
-	color = { 140 54 61 }
-	country_type = recognized
-	tier = principality
-	cultures = { latvian }
-	capital = STATE_COURLAND 
-}
-
-TALINN = {
-	color = { 201 199 194 }
-	country_type = recognized
-	tier = principality
-	cultures = { estonian }
-	capital = STATE_TALINN 
-}
-
-CRIMEA = {
-	color = { 155 208 49 }
-	country_type = recognized
-	tier = principality
-	cultures = { tatar }
-	capital = STATE_CRIMEA 
-}
-
-BESSARABIA = {
-	color = { 235 255 242 }
-	country_type = recognized
-	tier = principality
-	cultures = { ukrainian }
-	capital = STATE_BESSARABIA 
 }
 
 VICTORIA = {
@@ -702,12 +718,12 @@ WESTERN_AUSTRALIA = {
 	capital = STATE_WESTERN_AUSTRALIA 
 }
 
-AYDIN = {
-	color = { 105 130 135 }
+NORTH_ISLAND = {
+	color = { 240 130 150 }
 	country_type = recognized
 	tier = principality
-	cultures = { turkish }
-	capital = STATE_AYDIN 
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND 
 }
 
 

@@ -2,7 +2,7 @@
 
 # Generation Ship Events
 
-repopulation_enable_generation_ships = {
+repopulate_mod.1 = {
 	type = country_event
 	placement = root
 
