@@ -4,10 +4,16 @@
   repopulate_mod.1.f: "We had no choice. The generation ships were breaking down. The fleet split up over the planet and landed. Upon landing, we took one year and built trading facilities. The fleet's cohesion started to break down as the communication systems failed. "
   repopulate_mod.1.a: "Power up the cloning vats."
 
-  repopulate_mod.2.t: "Cloning Pods Failure"
-  repopulate_mod.2.d: "The cloning pods in the generation ships have finally failed. "
-  repopulate_mod.2.f: "We'll keep the ship hulls as a souvenir of our past. "
-  repopulate_mod.2.a: "Power down the cloning vats."
+  repopulate_mod.2.t: "Reduced Power"
+  repopulate_mod.2.d: "The fusion power generation on the generation ship is failing. "
+  repopulate_mod.2.f: "X"
+  repopulate_mod.2.a: "Reduce the use of the cloning vats."
 
-  repopulation_generation_ships_landed: "Generation Ship Landed"
-  repopulation_generation_ships_enabled: "Cloning Vats Active"
+  repopulate_mod.3.t: "Cloning Pods Failure"
+  repopulate_mod.3.d: "Half the cloning vats on the generation ship have failed. "
+  repopulate_mod.3.f: "It is best to keep the door closed on the aft cloning vat room. We'll keep using the other cloning vat room until its vats break. "
+  repopulate_mod.3.a: "Seal the door shut."
+
+  repopulation_generation_ships_cloning_full: "Generation Ship Cloning Vats Active"
+  repopulation_generation_ships_cloning_reduced: "Generation Ship Cloning Vats Reduced"
+  repopulation_generation_ships_cloning_failing: "Generation Ship Cloning Vats Failing"

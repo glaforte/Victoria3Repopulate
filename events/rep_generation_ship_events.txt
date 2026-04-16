@@ -19,9 +19,6 @@ repopulate_mod.1 = {
 	icon = "gfx/interface/icons/generation_ship.dds"
 
 	trigger = {
-		NOT = {
-			has_modifier = repopulation_generation_ships_landed
-		}
 	}
 
 	immediate = {}
@@ -30,13 +27,70 @@ repopulate_mod.1 = {
 		name = repopulate_mod.1.a
 
 		add_modifier = {
-			name = repopulation_generation_ships_landed
-			days = never_fire_again_modifier_time
+			name = repopulation_generation_ships_cloning_full
+			days = 3650 # 10 years
 		}
-		
+	}
+}
+
+repopulate_mod.2 = {
+	type = country_event
+	placement = root
+
+	title = repopulate_mod.2.t
+	desc = repopulate_mod.2.d
+	flavor = repopulate_mod.2.f
+
+	duration = 1
+
+	event_image = {
+		video = repopulate_generation_ship_video
+	}
+
+	icon = "gfx/interface/icons/generation_ship.dds"
+
+	trigger = {
+	}
+
+	immediate = {}
+
+	option = { 
+		name = repopulate_mod.2.a
+
 		add_modifier = {
-			name = repopulation_generation_ships_enabled
-			days = 3650
+			name = repopulation_generation_ships_cloning_reduced
+			days = 3650 # 10 years
+		}
+	}
+}
+
+repopulate_mod.3 = {
+	type = country_event
+	placement = root
+
+	title = repopulate_mod.3.t
+	desc = repopulate_mod.3.d
+	flavor = repopulate_mod.3.f
+
+	duration = 1
+
+	event_image = {
+		video = repopulate_generation_ship_video
+	}
+
+	icon = "gfx/interface/icons/generation_ship.dds"
+
+	trigger = {
+	}
+
+	immediate = {}
+
+	option = { 
+		name = repopulate_mod.3.a
+
+		add_modifier = {
+			name = repopulation_generation_ships_cloning_failing
+			days = 3650 # 10 years
 		}
 	}
 }

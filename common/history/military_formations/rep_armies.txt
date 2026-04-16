@@ -1,0 +1,1893 @@
+﻿MILITARY_FORMATIONS = {
+  
+	c:SVEALAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic
+			name = "Stockholmian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SVEALAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SVEALAND
+				count = 5
+			}
+		}
+	}
+	
+	c:ZEALAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic
+			name = "Copenhagian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ZEALAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ZEALAND
+				count = 5
+			}
+		}
+	}
+	
+	c:HOME_COUNTIES = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_england
+			name = "Londonian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HOME_COUNTIES
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_HOME_COUNTIES
+				count = 5
+			}
+		}
+	}
+	
+	c:WALES = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_england
+			name = "Cardiffan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WALES
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_WALES
+				count = 5
+			}
+		}
+	}
+	
+	c:NORMANDY = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "Rouien Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORMANDY
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NORMANDY
+				count = 5
+			}
+		}
+	}
+	
+	c:POITOU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "Rochellais Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_POITOU
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_POITOU
+				count = 5
+			}
+		}
+	}
+	
+	c:FRIESLAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "Groningian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FRIESLAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_FRIESLAND
+				count = 5
+			}
+		}
+	}
+	
+	c:POMERANIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Stetinian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_POMERANIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_POMERANIA
+				count = 5
+			}
+		}
+	}
+	
+	c:PIEDMONT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Torinoan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_PIEDMONT
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PIEDMONT
+				count = 5
+			}
+		}
+	}
+	
+	c:CALABRIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Cosenzian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CALABRIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CALABRIA
+				count = 5
+			}
+		}
+	}
+	
+	c:VENETIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Venetian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_VENETIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_VENETIA
+				count = 5
+			}
+		}
+	}
+	
+	c:ASTURIAS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = "Santanderian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ASTURIAS
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ASTURIAS
+				count = 5
+			}
+		}
+	}
+	
+	c:VALENCIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = "Valencian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_VALENCIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_VALENCIA
+				count = 5
+			}
+		}
+	}
+	
+	c:ALBANIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "Tiranian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ALBANIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ALBANIA
+				count = 5
+			}
+		}
+	}
+	
+	c:NORTHERN_THRACE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "Plovdivan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORTHERN_THRACE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NORTHERN_THRACE
+				count = 5
+			}
+		}
+	}
+	
+	c:INGRIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_russia
+			name = "Saint-petersburgian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_INGRIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_INGRIA
+				count = 5
+			}
+		}
+	}
+	
+	c:COURLAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic_states
+			name = "Jelgavan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_COURLAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_COURLAND
+				count = 5
+			}
+		}
+	}
+	
+	c:TALINN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic_states
+			name = "Talinnian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TALINN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_TALINN
+				count = 5
+			}
+		}
+	}
+	
+	c:CRIMEA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dnieper
+			name = "Aqmeseitian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CRIMEA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CRIMEA
+				count = 5
+			}
+		}
+	}
+	
+	c:BESSARABIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_danubia
+			name = "Chisinoan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BESSARABIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BESSARABIA
+				count = 5
+			}
+		}
+	}
+	
+	c:LOWER_EGYPT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_nile_basin
+			name = "Alexandrian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LOWER_EGYPT
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LOWER_EGYPT
+				count = 5
+			}
+		}
+	}
+	
+	c:FEZ = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = "Rabatan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FEZ
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_FEZ
+				count = 5
+			}
+		}
+	}
+	
+	c:ORAN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = "Oranian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ORAN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ORAN
+				count = 5
+			}
+		}
+	}
+	
+	c:TUNISIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = "Tunisian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TUNISIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_TUNISIA
+				count = 5
+			}
+		}
+	}
+	
+	c:SIERRA_LEONE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_senegal
+			name = "Keneman Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SIERRA_LEONE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SIERRA_LEONE
+				count = 5
+			}
+		}
+	}
+	
+	c:LIBERIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_senegal
+			name = "Christopolisian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LIBERIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LIBERIA
+				count = 5
+			}
+		}
+	}
+	
+	c:NIGER_DELTA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = "Calabaran Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NIGER_DELTA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NIGER_DELTA
+				count = 5
+			}
+		}
+	}
+	
+	c:TOGO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = "Sokodien Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TOGO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_TOGO
+				count = 5
+			}
+		}
+	}
+	
+	c:SOMALILAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ethiopia
+			name = "Bosasoan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SOMALILAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SOMALILAND
+				count = 5
+			}
+		}
+	}
+	
+	c:MOCAMBIQUE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_zanj
+			name = "Angochean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MOCAMBIQUE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MOCAMBIQUE
+				count = 5
+			}
+		}
+	}
+	
+	c:SOUTH_ANGOLA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_congo
+			name = "Lubangian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SOUTH_ANGOLA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SOUTH_ANGOLA
+				count = 5
+			}
+		}
+	}
+	
+	c:GABON = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_congo
+			name = "Librevilleois Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GABON
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GABON
+				count = 5
+			}
+		}
+	}
+	
+	c:ZAMBEZIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_zanj
+			name = "Quelimanian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ZAMBEZIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ZAMBEZIA
+				count = 5
+			}
+		}
+	}
+	
+	c:ZULULAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_southern_africa
+			name = "Maputean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ZULULAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ZULULAND
+				count = 5
+			}
+		}
+	}
+	
+	c:CAPE_COLONY = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_southern_africa
+			name = "Capean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CAPE_COLONY
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CAPE_COLONY
+				count = 5
+			}
+		}
+	}
+	
+	c:LOUISIANA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Orléanois Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LOUISIANA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LOUISIANA
+				count = 5
+			}
+		}
+	}
+	
+	c:NEW_YORK = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_new_england
+			name = "Yorkian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NEW_YORK
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+		}
+	}
+	
+	c:OREGON = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "Egenean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OREGON
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_OREGON
+				count = 5
+			}
+		}
+	}
+	
+	c:MARYLAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Baltimorian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MARYLAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MARYLAND
+				count = 5
+			}
+		}
+	}
+	
+	c:MAINE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_new_england
+			name = "Augustean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MAINE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MAINE
+				count = 5
+			}
+		}
+	}
+	
+	c:SOUTH_CAROLINA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Charlestan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SOUTH_CAROLINA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SOUTH_CAROLINA
+				count = 5
+			}
+		}
+	}
+	
+	c:RIO_GRANDE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			name = "Tampicoan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_RIO_GRANDE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_GRANDE
+				count = 5
+			}
+		}
+	}
+	
+	c:YUCATAN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_america
+			name = "Méridean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YUCATAN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_YUCATAN
+				count = 5
+			}
+		}
+	}
+	
+	c:JALISCO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			name = "Coliman Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_JALISCO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 5
+			}
+		}
+	}
+	
+	c:CHIAPAS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_america
+			name = "Tapachulan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHIAPAS
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CHIAPAS
+				count = 5
+			}
+		}
+	}
+	
+	c:BAJA_CALIFORNIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "Tortugans Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BAJA_CALIFORNIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BAJA_CALIFORNIA
+				count = 5
+			}
+		}
+	}
+	
+	c:NICARAGUA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_america
+			name = "Managuan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NICARAGUA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NICARAGUA
+				count = 5
+			}
+		}
+	}
+	
+	c:SANTO_DOMINGO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caribbean
+			name = "Domingoan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SANTO_DOMINGO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTO_DOMINGO
+				count = 5
+			}
+		}
+	}
+	
+	c:CENTRAL_CUBA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caribbean
+			name = "Camagueyian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CENTRAL_CUBA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CENTRAL_CUBA
+				count = 5
+			}
+		}
+	}
+	
+	c:ECUADOR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Quitoan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ECUADOR
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ECUADOR
+				count = 5
+			}
+		}
+	}
+	
+	c:BOLIVAR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_gran_colombia
+			name = "Maracaiboan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BOLIVAR
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BOLIVAR
+				count = 5
+			}
+		}
+	}
+	
+	c:ANTIOQUIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_gran_colombia
+			name = "Medellinan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ANTIOQUIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ANTIOQUIA
+				count = 5
+			}
+		}
+	}
+	
+	c:ANTOFAGASTA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Antofagastan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ANTOFAGASTA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ANTOFAGASTA
+				count = 5
+			}
+		}
+	}
+	
+	c:ICA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Liman Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ICA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ICA
+				count = 5
+			}
+		}
+	}
+	
+	c:BUENOS_AIRES = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+			name = "Airesian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BUENOS_AIRES
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BUENOS_AIRES
+				count = 5
+			}
+		}
+	}
+	
+	c:SANTIAGO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+			name = "Santiagoian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SANTIAGO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTIAGO
+				count = 5
+			}
+		}
+	}
+	
+	c:RIO_GRANDE_DO_SUL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			name = "Alegrean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_RIO_GRANDE_DO_SUL
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_GRANDE_DO_SUL
+				count = 5
+			}
+		}
+	}
+	
+	c:SANTA_CATARINA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			name = "Criciuman Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SANTA_CATARINA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTA_CATARINA
+				count = 5
+			}
+		}
+	}
+	
+	c:RIO_DE_JANEIRO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			name = "Rioan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 5
+			}
+		}
+	}
+	
+	c:MARANHAO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			name = "Fortalezan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MARANHAO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MARANHAO
+				count = 5
+			}
+		}
+	}
+	
+	c:AYDIN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_anatolia
+			name = "Izmiran Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AYDIN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_AYDIN
+				count = 5
+			}
+		}
+	}
+	
+	c:OMAN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_arabic
+			name = "Muscan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OMAN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_OMAN
+				count = 5
+			}
+		}
+	}
+	
+	c:ABU_DHABI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_arabic
+			name = "Abu dhabiian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ABU_DHABI
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ABU_DHABI
+				count = 5
+			}
+		}
+	}
+	
+	c:LEBANON = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_arabic
+			name = "Beirutian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LEBANON
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LEBANON
+				count = 5
+			}
+		}
+	}
+	
+	c:BASRA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_arabic
+			name = "Basrahan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BASRA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BASRA
+				count = 5
+			}
+		}
+	}
+	
+	c:LARISTAN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_persia
+			name = "Janahian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LARISTAN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LARISTAN
+				count = 5
+			}
+		}
+	}
+	
+	c:TRABZON = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_anatolia
+			name = "Trabzonian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TRABZON
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_TRABZON
+				count = 5
+			}
+		}
+	}
+	
+	c:GREATER_CAUCASUS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caucasus
+			name = "Tblisian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GREATER_CAUCASUS
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GREATER_CAUCASUS
+				count = 5
+			}
+		}
+	}
+	
+	c:EAST_BENGAL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bengal
+			name = "Daccan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EAST_BENGAL
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_EAST_BENGAL
+				count = 5
+			}
+		}
+	}
+	
+	c:GUJARAT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bombay
+			name = "Ahmedabadian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GUJARAT
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GUJARAT
+				count = 5
+			}
+		}
+	}
+	
+	c:SINDH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bombay
+			name = "Hyderabadian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SINDH
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SINDH
+				count = 5
+			}
+		}
+	}
+	
+	c:CIRCARS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_madras
+			name = "Masulipatniam Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CIRCARS
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CIRCARS
+				count = 5
+			}
+		}
+	}
+	
+	c:TRAVANCORE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_madras
+			name = "Kochian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TRAVANCORE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_TRAVANCORE
+				count = 5
+			}
+		}
+	}
+	
+	c:PEGU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "Rangonian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_PEGU
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PEGU
+				count = 5
+			}
+		}
+	}
+	
+	c:SHENGJING = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_manchuria
+			name = "Sheng jing Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SHENGJING
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SHENGJING
+				count = 5
+			}
+		}
+	}
+	
+	c:GUANGDONG = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "Guang dong Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GUANGDONG
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GUANGDONG
+				count = 5
+			}
+		}
+	}
+	
+	c:FUJIAN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "Xiamen Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FUJIAN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_FUJIAN
+				count = 5
+			}
+		}
+	}
+	
+	c:SHANDONG = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = "Shan dong Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SHANDONG
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SHANDONG
+				count = 5
+			}
+		}
+	}
+	
+	c:SUZHOU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "Zhou Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SUZHOU
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SUZHOU
+				count = 5
+			}
+		}
+	}
+	
+	c:CAMBODIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "Phnomian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CAMBODIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CAMBODIA
+				count = 5
+			}
+		}
+	}
+	
+	c:ANNAM = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "Huéan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ANNAM
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ANNAM
+				count = 5
+			}
+		}
+	}
+	
+	c:CHUBU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = "Fukuian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHUBU
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CHUBU
+				count = 5
+			}
+		}
+	}
+	
+	c:SHIKOKU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = "Kitakyushuan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SHIKOKU
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SHIKOKU
+				count = 5
+			}
+		}
+	}
+	
+	c:YANGHO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_manchuria
+			name = "Seoulan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YANGHO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_YANGHO
+				count = 5
+			}
+		}
+	}
+	
+	c:OUTER_MANCHURIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_manchuria
+			name = "Vladivostokan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OUTER_MANCHURIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_OUTER_MANCHURIA
+				count = 5
+			}
+		}
+	}
+	
+	c:EAST_JAVA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indonesia
+			name = "Surabayan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EAST_JAVA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_EAST_JAVA
+				count = 5
+			}
+		}
+	}
+	
+	c:NORTH_SUMATRA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indonesia
+			name = "Medan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORTH_SUMATRA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NORTH_SUMATRA
+				count = 5
+			}
+		}
+	}
+	
+	c:VICTORIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Melbournean Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_VICTORIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_VICTORIA
+				count = 5
+			}
+		}
+	}
+	
+	c:WESTERN_AUSTRALIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Derbian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	
+	c:NORTH_ISLAND = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Aucklandian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORTH_ISLAND
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NORTH_ISLAND
+				count = 5
+			}
+		}
+	}
+	
+}

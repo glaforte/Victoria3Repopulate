@@ -1,0 +1,23 @@
+﻿{
+  "administrative_choices" : [
+    "ai_strategy_agricultural_expansion",
+    "ai_strategy_plantation_economy",
+    "ai_strategy_resource_expansion",
+    "ai_strategy_industrial_expansion",
+    "ai_strategy_placate_population"
+  ],
+  "diplomatic_choices": [
+    "ai_strategy_maintain_power_balance",
+    "ai_strategy_territorial_expansion",
+    "ai_strategy_colonial_expansion",
+    "ai_strategy_armed_isolationism",
+    "ai_strategy_economic_imperialism"
+  ],
+  "politic_choices": [
+    "ai_strategy_conservative_agenda",
+    "ai_strategy_reactionary_agenda",
+    "ai_strategy_progressive_agenda",
+    "ai_strategy_egalitarian_agenda",
+    "ai_strategy_nationalist_agenda"
+  ]
+}

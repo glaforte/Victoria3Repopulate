@@ -4,9 +4,15 @@ pm_generation_ship_cloning = {
 
 	is_hidden_when_unavailable = yes
 
+	country_modifiers = {
+		workforce_scaled = {
+			state_colony_growth_speed_mult = 10
+			country_construction_add = 10
+		}
+	}
+
 	state_modifiers = {
 		workforce_scaled = {
-			state_birth_rate_mult = 0.2
 			state_infrastructure_add = 10
 		}
 	}
@@ -14,14 +20,10 @@ pm_generation_ship_cloning = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_grain_add = 10
-			goods_output_fruit_add = 10
 		}
 
 		level_scaled = {
 			building_employment_clergymen_add = 500
-			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add = 500
-			building_employment_clerks_add = 500
 		}
 	}
 }

@@ -647,7 +647,7 @@ CAMBODIA = {
 }
 
 ANNAM = {
-	color = { 4 125 5 }
+	color = { 144 50 55 }
 	country_type = recognized
 	tier = principality
 	cultures = { vietnamese }

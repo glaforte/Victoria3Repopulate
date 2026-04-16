@@ -1,0 +1,24 @@
+﻿MILITARY_FORMATIONS = {
+  {% for nation in nations %}
+	c:{{ nation.id }} = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:{{ nation.region }}
+			name = "{{ nation.adjective | capitalize }} Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_{{ nation.id }}
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_{{ nation.id }}
+				count = 5
+			}
+		}
+	}
+	{% endfor %}
+}

@@ -3,8 +3,26 @@ on_game_started = {
 	effect = {
 		every_country = {
 
-			# Generation Ship Landing
-			trigger_event = repopulate_mod.1
+			# Generation Ship Activates at the start of the game.
+			trigger_event = {
+				id = repopulate_mod.1
+				days = 0
+				popup = yes
+			}
+
+			# Generation Ship continues to work with a reduced strength.
+			trigger_event = {
+				id = repopulate_mod.2
+				days = 3650
+				popup = yes
+			}
+
+			# Generation Ship continues to work but the cloning vats are failing.
+			trigger_event = {
+				id = repopulate_mod.3
+				days = 7300
+				popup = yes
+			}
 		}
 	}
 }
