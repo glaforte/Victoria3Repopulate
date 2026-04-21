@@ -5,14 +5,14 @@
   repopulate_mod.1.a: "Power up the cloning vats."
 
   repopulate_mod.2.t: "Reduced Power"
-  repopulate_mod.2.d: "The fusion power generation on the generation ship is failing. "
-  repopulate_mod.2.f: "X"
+  repopulate_mod.2.d: "The fusion power generator on the generation ship is failing. "
+  repopulate_mod.2.f: "The ship operators have noticed spikes and sputters in the output voltage of the fusion power generator. They warn that we do not have the advanced electronics to fix it. They recommend we reduce our reliance of the generation ship systems. "
   repopulate_mod.2.a: "Reduce the use of the cloning vats."
 
   repopulate_mod.3.t: "Cloning Pods Failure"
   repopulate_mod.3.d: "Half the cloning vats on the generation ship have failed. "
-  repopulate_mod.3.f: "It is best to keep the door closed on the aft cloning vat room. We'll keep using the other cloning vat room until its vats break. "
-  repopulate_mod.3.a: "Seal the door shut."
+  repopulate_mod.3.f: "It is best to keep the door closed on the aft cloning vat room. Some of the pods are now filled with gory horrors. We should keep using the other cloning vat room until its vats break. "
+  repopulate_mod.3.a: "Seal the door to this cloning vat room."
 
   repopulation_generation_ships_cloning_full: "Generation Ship Cloning Vats Active"
   repopulation_generation_ships_cloning_reduced: "Generation Ship Cloning Vats Reduced"

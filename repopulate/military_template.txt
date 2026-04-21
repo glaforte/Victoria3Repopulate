@@ -16,7 +16,7 @@
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_{{ nation.id }}
-				count = 5
+				count = 1
 			}
 		}
 	}

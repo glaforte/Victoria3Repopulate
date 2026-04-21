@@ -6,14 +6,16 @@ pm_generation_ship_cloning = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			state_colony_growth_speed_mult = 10
-			country_construction_add = 10
+			# state_colony_growth_speed_mult = 10 
+			# country_construction_add = 2
 		}
 	}
 
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 10
+			state_tax_capacity_add = 10
+			state_tax_capacity_mult = 0.25
 		}
 	}
 
