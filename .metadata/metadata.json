@@ -3,7 +3,7 @@
 	"id": "org.tabbycoder",
 	"version": "1.0.0",
 	"picture": "thumbnail.png",
-	"supported_game_version": "1.12.*",
+	"supported_game_version": "1.13.*",
 	"short_description": "Repopulate the earth",
 	"tags" : [],
 	"relationships" : [],
