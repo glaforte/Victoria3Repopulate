@@ -1394,7 +1394,7 @@
 		activate_law = law_type:law_migration_controls
     activate_law = law_type:law_colonial_resettlement
 	} 
-  c:CHUBU = {
+  c:KYOTO = {
 		effect_starting_technology_tier_5_tech = yes
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy

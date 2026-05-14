@@ -729,8 +729,8 @@
     }
   }
 	
-	s:STATE_CHUBU = {
-    region_state:CHUBU = {
+	s:STATE_KYOTO = {
+    region_state:KYOTO = {
       create_pop = {
         culture = japanese
         size = 200000

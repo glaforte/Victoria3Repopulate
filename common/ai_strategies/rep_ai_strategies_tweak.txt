@@ -1,4 +1,4 @@
-INJECT:ai_strategy_default = {
+﻿INJECT:ai_strategy_default = {
 	wanted_construction_output = {
 
     # Start with the construction provided by the generation ship.

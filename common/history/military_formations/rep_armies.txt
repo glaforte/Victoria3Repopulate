@@ -3,7 +3,7 @@
 	c:SVEALAND = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_baltic
+			hq_region = sr:region_northern_europe
 			name = "Stockholmian Army"
 
 			combat_unit = {
@@ -24,7 +24,7 @@
 	c:ZEALAND = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_baltic
+			hq_region = sr:region_northern_europe
 			name = "Copenhagian Army"
 
 			combat_unit = {
@@ -45,7 +45,7 @@
 	c:HOME_COUNTIES = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_england
+			hq_region = sr:region_western_europe
 			name = "Londonian Army"
 
 			combat_unit = {
@@ -66,7 +66,7 @@
 	c:WALES = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_england
+			hq_region = sr:region_western_europe
 			name = "Cardiffan Army"
 
 			combat_unit = {
@@ -87,7 +87,7 @@
 	c:NORMANDY = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_france
+			hq_region = sr:region_western_europe
 			name = "Rouien Army"
 
 			combat_unit = {
@@ -108,7 +108,7 @@
 	c:POITOU = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_france
+			hq_region = sr:region_western_europe
 			name = "Rochellais Army"
 
 			combat_unit = {
@@ -129,7 +129,7 @@
 	c:FRIESLAND = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_rhine
+			hq_region = sr:region_western_europe
 			name = "Groningian Army"
 
 			combat_unit = {
@@ -150,7 +150,7 @@
 	c:POMERANIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_north_germany
+			hq_region = sr:region_northern_europe
 			name = "Stetinian Army"
 
 			combat_unit = {
@@ -171,7 +171,7 @@
 	c:PIEDMONT = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_italy
+			hq_region = sr:region_southern_europe
 			name = "Torinoan Army"
 
 			combat_unit = {
@@ -192,7 +192,7 @@
 	c:CALABRIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_italy
+			hq_region = sr:region_southern_europe
 			name = "Cosenzian Army"
 
 			combat_unit = {
@@ -213,7 +213,7 @@
 	c:VENETIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_italy
+			hq_region = sr:region_southern_europe
 			name = "Venetian Army"
 
 			combat_unit = {
@@ -234,7 +234,7 @@
 	c:ASTURIAS = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_iberia
+			hq_region = sr:region_southern_europe
 			name = "Santanderian Army"
 
 			combat_unit = {
@@ -255,7 +255,7 @@
 	c:VALENCIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_iberia
+			hq_region = sr:region_southern_europe
 			name = "Valencian Army"
 
 			combat_unit = {
@@ -339,7 +339,7 @@
 	c:COURLAND = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_baltic_states
+			hq_region = sr:region_eastern_europe
 			name = "Jelgavan Army"
 
 			combat_unit = {
@@ -360,7 +360,7 @@
 	c:TALINN = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_baltic_states
+			hq_region = sr:region_eastern_europe
 			name = "Talinnian Army"
 
 			combat_unit = {
@@ -381,7 +381,7 @@
 	c:CRIMEA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dnieper
+			hq_region = sr:region_eastern_europe
 			name = "Aqmeseitian Army"
 
 			combat_unit = {
@@ -402,7 +402,7 @@
 	c:BESSARABIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_danubia
+			hq_region = sr:region_balkans
 			name = "Chisinoan Army"
 
 			combat_unit = {
@@ -507,7 +507,7 @@
 	c:SIERRA_LEONE = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_senegal
+			hq_region = sr:region_west_africa
 			name = "Keneman Army"
 
 			combat_unit = {
@@ -528,7 +528,7 @@
 	c:LIBERIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_senegal
+			hq_region = sr:region_west_africa
 			name = "Christopolisian Army"
 
 			combat_unit = {
@@ -549,7 +549,7 @@
 	c:NIGER_DELTA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_niger
+			hq_region = sr:region_west_africa
 			name = "Calabaran Army"
 
 			combat_unit = {
@@ -570,7 +570,7 @@
 	c:TOGO = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_niger
+			hq_region = sr:region_west_africa
 			name = "Sokodien Army"
 
 			combat_unit = {
@@ -591,7 +591,7 @@
 	c:SOMALILAND = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_ethiopia
+			hq_region = sr:region_east_africa
 			name = "Bosasoan Army"
 
 			combat_unit = {
@@ -612,7 +612,7 @@
 	c:MOCAMBIQUE = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_zanj
+			hq_region = sr:region_east_africa
 			name = "Angochean Army"
 
 			combat_unit = {
@@ -633,7 +633,7 @@
 	c:SOUTH_ANGOLA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_congo
+			hq_region = sr:region_equatorial_africa
 			name = "Lubangian Army"
 
 			combat_unit = {
@@ -654,7 +654,7 @@
 	c:GABON = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_congo
+			hq_region = sr:region_equatorial_africa
 			name = "Librevilleois Army"
 
 			combat_unit = {
@@ -675,7 +675,7 @@
 	c:ZAMBEZIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_zanj
+			hq_region = sr:region_east_africa
 			name = "Quelimanian Army"
 
 			combat_unit = {
@@ -738,7 +738,7 @@
 	c:LOUISIANA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dixie
+			hq_region = sr:region_great_plains
 			name = "Orléanois Army"
 
 			combat_unit = {
@@ -759,7 +759,7 @@
 	c:NEW_YORK = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_new_england
+			hq_region = sr:region_atlantic_coast
 			name = "Yorkian Army"
 
 			combat_unit = {
@@ -801,7 +801,7 @@
 	c:MARYLAND = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dixie
+			hq_region = sr:region_atlantic_coast
 			name = "Baltimorian Army"
 
 			combat_unit = {
@@ -822,7 +822,7 @@
 	c:MAINE = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_new_england
+			hq_region = sr:region_atlantic_coast
 			name = "Augustean Army"
 
 			combat_unit = {
@@ -843,7 +843,7 @@
 	c:SOUTH_CAROLINA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dixie
+			hq_region = sr:region_atlantic_coast
 			name = "Charlestan Army"
 
 			combat_unit = {
@@ -864,7 +864,7 @@
 	c:RIO_GRANDE = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_mexico
+			hq_region = sr:region_central_america
 			name = "Tampicoan Army"
 
 			combat_unit = {
@@ -906,7 +906,7 @@
 	c:JALISCO = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_mexico
+			hq_region = sr:region_central_america
 			name = "Coliman Army"
 
 			combat_unit = {
@@ -948,7 +948,7 @@
 	c:BAJA_CALIFORNIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_pacific_coast
+			hq_region = sr:region_central_america
 			name = "Tortugans Army"
 
 			combat_unit = {
@@ -990,7 +990,7 @@
 	c:SANTO_DOMINGO = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caribbean
+			hq_region = sr:region_central_america
 			name = "Domingoan Army"
 
 			combat_unit = {
@@ -1011,7 +1011,7 @@
 	c:CENTRAL_CUBA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caribbean
+			hq_region = sr:region_central_america
 			name = "Camagueyian Army"
 
 			combat_unit = {
@@ -1263,7 +1263,7 @@
 	c:AYDIN = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_anatolia
+			hq_region = sr:region_near_east
 			name = "Izmiran Army"
 
 			combat_unit = {
@@ -1284,7 +1284,7 @@
 	c:OMAN = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arabic
+			hq_region = sr:region_arabia
 			name = "Muscan Army"
 
 			combat_unit = {
@@ -1305,7 +1305,7 @@
 	c:ABU_DHABI = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arabic
+			hq_region = sr:region_arabia
 			name = "Abu dhabiian Army"
 
 			combat_unit = {
@@ -1326,7 +1326,7 @@
 	c:LEBANON = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arabic
+			hq_region = sr:region_near_east
 			name = "Beirutian Army"
 
 			combat_unit = {
@@ -1347,7 +1347,7 @@
 	c:BASRA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arabic
+			hq_region = sr:region_near_east
 			name = "Basrahan Army"
 
 			combat_unit = {
@@ -1368,7 +1368,7 @@
 	c:LARISTAN = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_persia
+			hq_region = sr:region_greater_persia
 			name = "Janahian Army"
 
 			combat_unit = {
@@ -1389,7 +1389,7 @@
 	c:TRABZON = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_anatolia
+			hq_region = sr:region_near_east
 			name = "Trabzonian Army"
 
 			combat_unit = {
@@ -1410,7 +1410,7 @@
 	c:GREATER_CAUCASUS = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caucasus
+			hq_region = sr:region_greater_persia
 			name = "Tblisian Army"
 
 			combat_unit = {
@@ -1431,7 +1431,7 @@
 	c:EAST_BENGAL = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_bengal
+			hq_region = sr:region_north_india
 			name = "Daccan Army"
 
 			combat_unit = {
@@ -1452,7 +1452,7 @@
 	c:GUJARAT = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_bombay
+			hq_region = sr:region_north_india
 			name = "Ahmedabadian Army"
 
 			combat_unit = {
@@ -1473,7 +1473,7 @@
 	c:SINDH = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_bombay
+			hq_region = sr:region_north_india
 			name = "Hyderabadian Army"
 
 			combat_unit = {
@@ -1494,7 +1494,7 @@
 	c:CIRCARS = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_madras
+			hq_region = sr:region_south_india
 			name = "Masulipatniam Army"
 
 			combat_unit = {
@@ -1515,7 +1515,7 @@
 	c:TRAVANCORE = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_madras
+			hq_region = sr:region_south_india
 			name = "Kochian Army"
 
 			combat_unit = {
@@ -1557,7 +1557,7 @@
 	c:SHENGJING = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_manchuria
+			hq_region = sr:region_northeast_asia
 			name = "Sheng jing Army"
 
 			combat_unit = {
@@ -1701,22 +1701,22 @@
 		}
 	}
 	
-	c:CHUBU = {
+	c:KYOTO = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_japan
+			hq_region = sr:region_northeast_asia
 			name = "Fukuian Army"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_CHUBU
+				state_region = s:STATE_KYOTO
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
-				state_region = s:STATE_CHUBU
+				state_region = s:STATE_KYOTO
 				count = 1
 			}
 		}
@@ -1725,7 +1725,7 @@
 	c:SHIKOKU = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_japan
+			hq_region = sr:region_northeast_asia
 			name = "Kitakyushuan Army"
 
 			combat_unit = {
@@ -1746,7 +1746,7 @@
 	c:YANGHO = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_manchuria
+			hq_region = sr:region_northeast_asia
 			name = "Seoulan Army"
 
 			combat_unit = {
@@ -1767,7 +1767,7 @@
 	c:OUTER_MANCHURIA = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_manchuria
+			hq_region = sr:region_northeast_asia
 			name = "Vladivostokan Army"
 
 			combat_unit = {

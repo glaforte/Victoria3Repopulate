@@ -654,12 +654,12 @@ ANNAM = {
 	capital = STATE_ANNAM 
 }
 
-CHUBU = {
+KYOTO = {
 	color = { 201 185 157 }
 	country_type = recognized
 	tier = principality
 	cultures = { japanese }
-	capital = STATE_CHUBU 
+	capital = STATE_KYOTO 
 }
 
 SHIKOKU = {

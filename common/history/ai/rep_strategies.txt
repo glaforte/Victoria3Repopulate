@@ -1,453 +1,453 @@
 ﻿AI = {
   
 	c:SVEALAND = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:ZEALAND = {
 		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:HOME_COUNTIES = {
 		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:WALES = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:NORMANDY = {
-		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_progressive_agenda
 	} 
 	c:POITOU = {
-		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_plantation_economy
 		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:FRIESLAND = {
 		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:POMERANIA = {
-		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_plantation_economy
 		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:PIEDMONT = {
 		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:CALABRIA = {
-		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_reactionary_agenda
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_progressive_agenda
 	} 
 	c:VENETIA = {
 		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:ASTURIAS = {
 		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:VALENCIA = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_progressive_agenda
 	} 
 	c:ALBANIA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:NORTHERN_THRACE = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:INGRIA = {
 		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_reactionary_agenda
-	} 
-	c:COURLAND = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_progressive_agenda
 	} 
+	c:COURLAND = {
+		set_strategy = ai_strategy_plantation_economy
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+	} 
 	c:TALINN = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_plantation_economy
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:CRIMEA = {
 		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:BESSARABIA = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
-	c:LOWER_EGYPT = {
+	c:BESSARABIA = {
 		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_maintain_power_balance
 		set_strategy = ai_strategy_conservative_agenda
+	} 
+	c:LOWER_EGYPT = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:FEZ = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:ORAN = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_progressive_agenda
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:TUNISIA = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:SIERRA_LEONE = {
-		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_placate_population
 		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_conservative_agenda
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:LIBERIA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_egalitarian_agenda
-	} 
-	c:NIGER_DELTA = {
 		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_conservative_agenda
 	} 
+	c:NIGER_DELTA = {
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_progressive_agenda
+	} 
 	c:TOGO = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_progressive_agenda
 	} 
 	c:SOMALILAND = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:MOCAMBIQUE = {
-		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_plantation_economy
 		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_reactionary_agenda
 	} 
+	c:MOCAMBIQUE = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_progressive_agenda
+	} 
 	c:SOUTH_ANGOLA = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_maintain_power_balance
 		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:GABON = {
 		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:ZAMBEZIA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:ZULULAND = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:CAPE_COLONY = {
-		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_placate_population
 		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
-	c:LOUISIANA = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_egalitarian_agenda
-	} 
-	c:NEW_YORK = {
-		set_strategy = ai_strategy_placate_population
+	c:CAPE_COLONY = {
+		set_strategy = ai_strategy_plantation_economy
 		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
+	c:LOUISIANA = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_progressive_agenda
+	} 
+	c:NEW_YORK = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_progressive_agenda
+	} 
 	c:OREGON = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:MARYLAND = {
 		set_strategy = ai_strategy_agricultural_expansion
 		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_progressive_agenda
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:MAINE = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:SOUTH_CAROLINA = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:RIO_GRANDE = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_progressive_agenda
+		set_strategy = ai_strategy_plantation_economy
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:YUCATAN = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_conservative_agenda
+	} 
+	c:JALISCO = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_reactionary_agenda
+	} 
+	c:CHIAPAS = {
 		set_strategy = ai_strategy_agricultural_expansion
 		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
-	c:JALISCO = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:CHIAPAS = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_conservative_agenda
-	} 
 	c:BAJA_CALIFORNIA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:NICARAGUA = {
-		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_agricultural_expansion
 		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_conservative_agenda
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:SANTO_DOMINGO = {
 		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:CENTRAL_CUBA = {
 		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:ECUADOR = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_progressive_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:BOLIVAR = {
 		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:ANTIOQUIA = {
-		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_industrial_expansion
 		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_progressive_agenda
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:ANTOFAGASTA = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_reactionary_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:ICA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:BUENOS_AIRES = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_maintain_power_balance
 		set_strategy = ai_strategy_progressive_agenda
 	} 
+	c:BUENOS_AIRES = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+	} 
 	c:SANTIAGO = {
-		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:RIO_GRANDE_DO_SUL = {
-		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_plantation_economy
 		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_conservative_agenda
-	} 
-	c:SANTA_CATARINA = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:RIO_DE_JANEIRO = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:MARANHAO = {
-		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
-	c:AYDIN = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_economic_imperialism
+	c:SANTA_CATARINA = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:RIO_DE_JANEIRO = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_reactionary_agenda
+	} 
+	c:MARANHAO = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_egalitarian_agenda
+	} 
+	c:AYDIN = {
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:OMAN = {
 		set_strategy = ai_strategy_agricultural_expansion
 		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_conservative_agenda
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:ABU_DHABI = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_conservative_agenda
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_progressive_agenda
 	} 
 	c:LEBANON = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:BASRA = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_reactionary_agenda
+		set_strategy = ai_strategy_plantation_economy
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:LARISTAN = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_reactionary_agenda
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:TRABZON = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:GREATER_CAUCASUS = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_nationalist_agenda
 	} 
 	c:EAST_BENGAL = {
 		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_reactionary_agenda
-	} 
-	c:GUJARAT = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:SINDH = {
-		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_progressive_agenda
-	} 
-	c:CIRCARS = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_egalitarian_agenda
-	} 
-	c:TRAVANCORE = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_reactionary_agenda
-	} 
-	c:PEGU = {
-		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_conservative_agenda
 	} 
-	c:SHENGJING = {
+	c:GUJARAT = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:SINDH = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_reactionary_agenda
+	} 
+	c:CIRCARS = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:TRAVANCORE = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_nationalist_agenda
+	} 
+	c:PEGU = {
 		set_strategy = ai_strategy_placate_population
 		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_progressive_agenda
+	} 
+	c:SHENGJING = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_conservative_agenda
 	} 
 	c:GUANGDONG = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_territorial_expansion
-		set_strategy = ai_strategy_nationalist_agenda
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:FUJIAN = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_egalitarian_agenda
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:SHANDONG = {
 		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-	} 
-	c:SUZHOU = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
-	c:CAMBODIA = {
+	c:SUZHOU = {
 		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_conservative_agenda
+	} 
+	c:CAMBODIA = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:ANNAM = {
 		set_strategy = ai_strategy_agricultural_expansion
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_progressive_agenda
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_egalitarian_agenda
 	} 
-	c:CHUBU = {
-		set_strategy = ai_strategy_placate_population
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_conservative_agenda
+	c:KYOTO = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_reactionary_agenda
 	} 
 	c:SHIKOKU = {
-		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_industrial_expansion
 		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_egalitarian_agenda
 	} 
 	c:YANGHO = {
-		set_strategy = ai_strategy_resource_expansion
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_reactionary_agenda
-	} 
-	c:OUTER_MANCHURIA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_nationalist_agenda
-	} 
-	c:EAST_JAVA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_egalitarian_agenda
-	} 
-	c:NORTH_SUMATRA = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_colonial_expansion
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_economic_imperialism
 		set_strategy = ai_strategy_conservative_agenda
 	} 
-	c:VICTORIA = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_economic_imperialism
+	c:OUTER_MANCHURIA = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_progressive_agenda
 	} 
-	c:WESTERN_AUSTRALIA = {
-		set_strategy = ai_strategy_placate_population
+	c:EAST_JAVA = {
+		set_strategy = ai_strategy_resource_expansion
 		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_conservative_agenda
+	} 
+	c:NORTH_SUMATRA = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_nationalist_agenda
 	} 
+	c:VICTORIA = {
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_conservative_agenda
+	} 
+	c:WESTERN_AUSTRALIA = {
+		set_strategy = ai_strategy_industrial_expansion
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_progressive_agenda
+	} 
 	c:NORTH_ISLAND = {
-		set_strategy = ai_strategy_plantation_economy
-		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_agricultural_expansion
+		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_conservative_agenda
 	} 
 }

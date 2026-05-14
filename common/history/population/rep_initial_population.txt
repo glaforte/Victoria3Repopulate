@@ -409,7 +409,7 @@
 		effect_starting_pop_literacy_low = yes
 	}
 	
-	c:CHUBU = {
+	c:KYOTO = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
 	}

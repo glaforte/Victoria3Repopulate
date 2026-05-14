@@ -6248,8 +6248,8 @@
 		}
 	}
 
-	s:STATE_CHUBU = {
-		region_state:CHUBU = {
+	s:STATE_KYOTO = {
+		region_state:KYOTO = {
 			create_building={
 				building="building_generation_ship"
 				level = 1
@@ -6260,9 +6260,9 @@
 				add_ownership={
 					building={
 						type="building_shipyard"
-						country="c:CHUBU"
+						country="c:KYOTO"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -6272,7 +6272,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:CHUBU"
+						country="c:KYOTO"
 						levels=1
 					}
 				}
@@ -6285,9 +6285,9 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:CHUBU"
+						country="c:KYOTO"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -6300,9 +6300,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHUBU"
+						country="c:KYOTO"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -6314,9 +6314,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHUBU"
+						country="c:KYOTO"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
